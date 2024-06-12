@@ -134,6 +134,9 @@
     - id: WeaponLaserGun
       prob: 0.001
       orGroup: Weapons
+    - id: BaseUplinkRadio20TC
+      prob: 0.001
+      orGroup: Weapons
     - id: WeaponShotgunHandmade
       prob: 0.01
       orGroup: Weapons
