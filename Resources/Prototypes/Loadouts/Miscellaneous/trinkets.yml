@@ -30,7 +30,7 @@
     - PlushieSpaceLizard
 
 # Weaponry
-- type: startingGear
+- type: loadout
   id: WeaponDisabler
   storage:
     back:
