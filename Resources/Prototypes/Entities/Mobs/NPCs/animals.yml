@@ -2292,12 +2292,6 @@
     - type: HTN
       rootTask:
         task: SimpleHostileCompound
-    - type: GhostRole
-      makeSentient: true
-      name: ghost-role-information-giant-spider-name
-      description: ghost-role-information-giant-spider-description
-      raffle:
-        settings: short
     - type: GhostTakeoverAvailable
 
 - type: entity
