@@ -1,100 +1,125 @@
-[color=#ff0800][bold]DISCLAIMER:[/bold] All Cosmatic Drift servers are strictly 16+ only. If you are underage, you [bold]will be banned[/bold] for double the amount of time that it takes for you to be of age.[/color]
+﻿[color=#ff0000]Você PRECISA ter 16 anos de idade para jogar aqui.[/color]
 
+[color=#ff0000]DESCONECTAR NO MEIO DE UM AHELP IRÁ LHE DAR UM BAN DE APPEAL APENAS.[/color]
 
-[head=2][color=#ffdd47][bold]1.0 -[/bold] The Golden Rule Policy.[/color][/head]
-Game admins have the final say on all rules, game issues, and punishments. We reserve the right to remove you under this policy if we see fit. Admins will be held up to high standards when invoking this policy.
+[color=#ff0000]NÃO SABER AS REGRAS É UM AGRAVANTE PARA O BAN.[/color]
+[color=#ff0000]NÃO SABER AS REGRAS É UM AGRAVANTE PARA O BAN.[/color]
+[color=#ff0000]NÃO SABER AS REGRAS É UM AGRAVANTE PARA O BAN.[/color]
 
+[color=#ff0000]É IMPORTANTE QUE VOCÊ LEIA AS REGRAS, ISSO É UM SERVER COM FOCO MAIOR EM RP E ELAS SÃO DIFERENTES EM COMPARAÇÃO AS DO PIRATA![/color]
 
-[head=2][color=#ff3636][bold]2.0 -[/bold] Zero Tolerance Policies.[/color][/head]
-[color=#e6e6e6]Policies and rules that we will not provide leeway for or tolerate under any circumstance.[/color]
+[color=#00ff00]GRIEF DE FIM DE ROUND (ou seja, quando você chega na centcom) NÃO É PERMITIDO![/color]
 
-[color=#e6e6e6][color=#ff3636][bold]2.1 -[/bold][/color] Do not attempt to evade bans, ahelp questioning, or punishments. Do not abuse the ahelp system.[/color][color=#c4c4c4]
-[bullet] Ban evading using an alternate account or other means will result in an immediate voucher ban.
-[bullet] Evading ahelp questioning by disconnecting upon being ahelped, during questioning, or ignoring the admin will usually end in an appeal ban.
-[bullet] Attempting to get around role bans by being promoted to that role in-game will lead to a game ban.
-[bullet] Spamming or being aggressive to our admins in ahelps will result in an appeal ban.[/color]
+[color=#ffff00]Aqui no Palmtree Station o foco é em permitir que os jogadores utilizem o roleplay como veículo para contar suas histórias, sem manter o foco em ganhar. Errar ou ir mal no seu cargo é okay![/color]
 
-[color=#e6e6e6][color=#ff3636][bold]2.2 -[/bold][/color] This is an English only server, as we can not moderate other languages speaking full sentences in anything but English will usually lead to a single warning, then a ban if you do not cease.[color=#c4c4c4]
-[bullet] You may only speak brief one to five word phrases in another language, as long as it doesn't break any of the other rules or is used to communicate with another player in the same language.[/color]
+Quaisquer perguntas você poderá dirigir a staff no F1!
 
-[color=#e6e6e6][color=#ff3636][bold]2.3 -[/bold][/color] Absolutely no discrimination nor bigotry against any player or their characters for any reason. This covers ableism, homophobia, racism, sexism, speciesism, and hate speech as a whole. If it's to the point where it makes someone uncomfortable and they ahelp you or an admin finds an issue with it, you will answer for it.[/color]
+[color=#a4885c]0.[/color] Admins podem agir fora das regras se é de interesse da comunidade geral ou do flow do round.
+    - Os admins que exercitarem esse privilégio estarão completamente responsáveis por suas ações.
+    - As regras escritas são meramente um guia, Space Station 14 é um jogo open-ended, não é possível escrever todas as possibilidades!
 
-[color=#e6e6e6][color=#ff3636][bold]2.4 -[/bold][/color] No sexual content, disgusting RP, or gross statements. This is not an 18+ server. This means no erotic roleplay, emotes and messages that are sexual in nature, or overtly disgusting things no one wants to hear. Includes "technically not NSFW" jokes.[/color]
+[color=#a4885c]1.[/color] ERP ou conteúdo explícito [color=#ff0000]não é permitido de forma alguma[/color]. Isso contém comentários que podem até não ser sexuais em sua natureza, mas que são inapropriados. [color=#ff0000]Se o roleplay chegar a um ponto de ser sexual ou desconfortável, contate um admnistrador imediatamente.[/color]
 
-[color=#e6e6e6][color=#ff3636][bold]2.5 -[/bold][/color] Do not communicate in-round information about an on-going round through multiple accounts or to other people.[/color][color=#c4c4c4]
-[bullet] Communicating current-round info out of character - also known as "metacommunicating" - includes posting screenshots of a live round, talking about in-character events in out-of-character, sitting in a voice chat talking about the round, etc. It does not matter how minor it is, this is zero tolerance.
-[bullet] Do not multikey, which is to play or spectate in the same round with multiple accounts operated by you.[/color]
+[color=#a4885c]2.[/color] Siga as expectativas do server!
+    - Não trapaceie.
+    - Não abuse de bugs ou exploits (hacks) externos. [color=#ff0000]Temos tolerância zero para exploits.[/color]
+    - Se você ganhar um ban de um trabalho em específico, não será permitido que jogue disso, isso inclui procurar um HoP para ele lhe dar a posição, e será tratado como ban evading, exceção sendo se você é a única pessoa capaz de exercer tal função.
+    - Não seja um problema, distração ou incômodo de larga escala para a tripulação.
+    - Não esconda a nuke num lugar impossível de se ver.
+    - Não dê flood no ahelp, se você tem um problema, não pergunte "Tem admin ai?", apenas FALE O PROBLEMA! Assim a situação é resolvida infinitamente mais rápida!
+    - Greves e revoluções (exemplo, cargonia) não são permitidos.
+    - Jogadores SSD ou AFK tem os mesmos direitos que jogadores normais.
+    - Grief no fim do round não é permitido.
 
-[color=#e6e6e6][color=#ff3636][bold]2.6 -[/bold][/color] Intentionally using and/or abusing exploits, bugs, or external programs are not allowed.[/color][color=#c4c4c4]
-[bullet] The moment you learn of a bug, you are expected to report it immediately and never intentionally use it again.
-[bullet] Some examples of external programs are as follows: autoclickers, macros, client cheats, etc.
-[bullet] Any form of cheating or hacking will immediately result in a permanent ban with no chance of appeal without a voucher from another reputable server.[/color]
+[color=#a4885c]3.[/color] Siga as regras do chat!
+    - Use português ou inglês como seu método de comunicação.
+    - Sem spam.
+    - Sem anúncio.
+    - Não use netspeak e/ou abreviações. (lol, kk, q, pq, ss, nn)
+    - O canal de emotes é exclusivo para emotes, língua de sinal não existe PRINCIPALMENTE se você for um hamster (eu não acredito que tô tendo que escrever isso).
+    - Use os canais LOOC e OOC apropriadamente, não fale de assuntos dos rounds neles.
+    - Discursos de ódio não são permitidos de forma alguma nem xingamentos que lembram palavras na vida real. "Eu tava brincando" não é desculpa.
+    - Sem remarcas racistas para outras espécies, se você não gosta de uma espécie in-game, engole, você não é obrigado a jogar com ela.
 
+[color=#a4885c]4.[/color] Siga as regras de metagaming!
+    - Não aja em coisas que você viu quando morto.
+    - Não converse com outros jogadores por fora do jogo no mesmo round.
+    - Jogadores podem ter amizades em IC, mas garantir benefícios para esses amigos é proibido.
+    - Você é permitido se lembrar do que rolou em outros rounds, mas não o fim trágico deles, não faria sentido para alguém do sindicato do nada trabalhar pra Nanotrasen, da mesma forma que você também não deve carregar mágoas de conflitos passados.
+    - Itens de sindicato não devem ser tratados como contrabando, não há traidores.
+    - [color=#ff0000]Não transmita o round ao vivo sem permissão de um admnistrador.[/color]
 
-[head=2][color=#3bff72][bold]3.0 -[/bold] General Etiquette.[/color][/head]
-[color=#e6e6e6]General rules and common practice. The "bare-minimum" expectations that you should be following.[/color]
+[color=#a4885c]5.[/color] Jogadores revividos lembram de tudo assim que revividos por defibrilador, se revividos por clonagem esquecem a razão da morte. [color=#ff0000]Denuncie jogadores que violarem essa regra.[/color]
 
-[color=#e6e6e6][color=#3bff72][bold]3.1 -[/bold][/color] Do not be a huge dick and try not to over-escalate. You are playing a roleplaying game with other real people. Do not go out of your way to ruin the experience of other players, and do not grief.[/color][color=#c4c4c4]
-[bullet] Killing yourself while in security custody is considered being a dick, as they have little way to stop you without depriving you of your basic rights. If you wish to commit suicide while arrested ask to do so in ahelp.
-[bullet] Try to avoid permanently killing or "round-removing" other players. While this is acceptable if it is in pursuit of a direct antagonistic kill objective, it is generally frowned upon and should be avoided if possible.
-[bullet] Try your best not to negatively affect absent or SSD players. Stealing, killing, and griefing these players is disallowed, however, things such as moving a player to a safe area or security performing a search acceptable.[/color]
+[color=#a4885c]6.[/color] Todos os seres construídos e sumonados possuem leis que eles devem seguir.
+    - Se há um mestre, o ser deve seguir o mestre.
+    - Seu mestre tem a responsabilidade por más ações que você fazer em seu nome e ordens.
+    - Ter recebido livre arbítrio não te torna um antag, não pratique self-antag.
 
-[color=#e6e6e6][color=#3bff72][bold]3.2 -[/bold][/color] Do not commit major crimes without admin approval. We are a server that permits crime in the effort to further RP story lines, however it must be kept non-intensive if you're doing it without the guidance of an admin.[color=#c4c4c4]
-[bullet] As a rule of thumb, if it significantly harms anyone other than yourself, causes a public or work location to be unusable or unsafe, or involves the theft of irreplaceable gear such as command gear, you should ahelp. If you are unsure if what you're about to do is a minor or major crime, always ahelp.
-[bullet] After you are caught and punished in-characterly, you are expected not to do the same crime again that round without an admin's approval.
-[bullet] The arrivals station, arrivals shuttle, and end round Central Command station are entirely off-limits; do not grief, attack others, or do any antagonistic acts in these locations under any circumstance, even as an antagonist.[/color]
+[color=#a4885c]7.[/color] Siga as convenções de nome!
+    - Os nomes de personagem devem seguir os padrões:
+        * Sem referências óbvias.
+        * Que não pertube o roleplay.
+      OU
+        * Ser um nome aleatório.
+    - Cargos artísticos, como mímico, palhaço ou boxeador possuem liberdade para terem nomes artísticos também, desde que não sejam ofensivos, explícitos, ou terrívelmente anti-rp, um palhaço com o nome "Patati Patatráfico" por exemplo é okay.
 
-[color=#e6e6e6][color=#3bff72][bold]3.3 -[/bold][/color] You are playing a high-roleplay server; speak and act like a human being. While playing in this server, you will be held to a higher standard of roleplay. With this being the case, you are expected to actively engage in roleplay when it comes up.[/color][color=#c4c4c4]
-[bullet] Do not use text speech such as "omg," "idk," "wtf," or "lol."
-[bullet] Referring to gamey terms like "admins" or "RNG" is disallowed.
-[bullet] Do not abuse emotes to bypass chat filters. Emotes should represent actions that your character could actually perform. Emotes should have effort put into them; this means that you should not be typing things such as "John Doe motions with his hands to signal syndicate agents west of you."
-[bullet] Do not respond to events in a highly unbelievable manner, stick to how your character would react.[/color]
+[color=#a4885c]8.[/color] Siga a linha no roleplay!
+    - Trate seu personagem como uma entidade separada de você!
+    - Desenvolvimento de personagem pode ocorrer, mas se lembre, como mencionado préviamente, todo round é um reset leve! Não se lembre das suas mortes passadas nem dos traidores!
+    - Comando e segurança estão num padrão maior de roleplay.
+    - Prisioneiro é um role de ROLEPLAY. Você não é um antagonista e será punido se agir como um, se lembre do agravante por não saber as regras.
 
-[color=#e6e6e6][color=#3bff72][bold]3.4 -[/bold][/color] Do not disconnect, ghost, suicide, or otherwise intentionally permanently remove yourself from the round as an important role or while facing in-character punishment such as jail time without ahelping beforehand. You do not need to wait for a response, however, failure to notify admins will result in consequences.[/color][color=#c4c4c4]
-[bullet] This does not apply to cryo.[/color]
+[color=#a4885c]9.[/color] Siga as linhas de escalamento.
+    - Não escale as coisas sem necessidade, um soco não é razão para você matar a pessoa.
+    - Ghost roles antagônicos ou de peste, como ratos, são fair game para serem atacados, mas pets de familiars não.
+    - Se o conflito resultar em crit, ajude a pessoa.
 
-[color=#e6e6e6][color=#3bff72][bold]3.5 -[/bold][/color] Your character name should be believable and realistic.[/color][color=#c4c4c4]
-[bullet] Your name must only contain basic English letters and accented characters.
-[bullet] Your character name should not mimic popular real-life or fictional people, even if it is a "clever" plays on them, such as "White Walter."
-[bullet] Your character's name should not be phonetic word plays, such as "Mike Oxlong" or "Ben Dover."
-[bullet] Your name should not be overly dumb or gamey either, such as "John Graytide."
-[bullet] Names should not include titles, such as "Doctor," "Sergeant," or "Father."[/color]
+[color=#a4885c]10.[/color] Siga as regras de antagonista.
+    - Antagonistas devem agir apenas em função de seus objetivos, se você não sabe se algo é permitido, pergunte! A situação muda de momento para momento.
+    - Outros antagonistas não são necessáriamente seus amigos, mas trabalho em equipe faz a força mesmo assim!
+    - Ser chatão como campar arrivals, extender o round, usar exploits e afins é proibido.
+    - Ghost roles possuem regras que devem ser seguidas. [color=#ff0000]Quebrar essas regras RESULTARÁ em um ban![/color]
 
+[color=#a4885c]11.[/color] Psiônicos.
+    - Jogadores podem usar seus poderes psiônicos para fins de roleplay, mas há de se lembrar que há consequências pelo uso contínuo, como ter seus poderes retirados e até morte.
 
-[head=2][color=#59ffe1][bold]4.0 -[/bold] Roleplay Expectations.[/color][/head]
-[color=#e6e6e6]Expectations and policies centered around roleplay.[/color]
+[color=#a4885c]12.[/color] Não prepare equipamento antes da hora. (Geralmente referido como powergaming)
+    - A única isenção das regras a seguir são para armas de classe civil, que podem ser equipadas no loadout e desbloqueadas com tempo de jogo (yup, você ganha arma grátis, se você não tivesse lido as regras não saberia disso!)
+    - Tenha uma boa razão para ter as coisas, o assistente não precisa de uma glock-17, o médico não precisa de cartucho de carabina, e o HoP não precisa de uma bomba atômica.
+    - Não crie armas apenas pela possibilidade de precisar.
+    - Não esconda objetivos de traidor preemptivamente apenas no caso deles precisarem ser pegos.
 
-[color=#e6e6e6][color=#59ffe1][bold]4.1 -[/bold][/color] Do not intentionally prepare items or locations "just in case" a certain scenario happens unless you have proper in-character reasoning, especially if it is intended to gain an upper-hand or advantage over another player. Cosmatic Drift is heavily based around roleplay; you should generally be focused on this rather than playing to win.[/color][color=#c4c4c4]
-[bullet] The concept of "playing to win" is commonly referred to as "powergaming."
-[bullet] Standard Operating Procedure (SOP) dictates how areas should be locked down and what gear should be held and/or equipped during any given circumstance. Minor things such as getting a crowbar on round-start is fine, however, seeking out weapons is not.[/color]
+[color=#ff0000]REGRAS DE SEGURANÇA & COMANDO[/color]
+Essas regras se aplicam a quem for promovido também, a menos que a pessoa seja um antagonista.
 
-[color=#e6e6e6][color=#59ffe1][bold]4.2 -[/bold][/color] Do not overly crowd an RP situation. This is mostly designed around security and people following others into departments. We do not expect you to be absolutely always cautious about this rule, nor do we intend to enforce it with a heavy hand, but please just be mindful of it, as it can seriously detract from others' RP.[color=#c4c4c4]
-[bullet] If security is dealing with a situation, be respectful of their operation, do not needlessly intervene or chime in verbally as a third party, basically you should only be stepping in if you're taking the full side of the suspect and intend to act as an accomplice.
-[bullet] Medical and similar departments get roughly the same protections, do not follow a patient/involved person into a location such as the medical bay unless you have good reason to, for example you having information on their condition that you are going to give or an officer making an arrest.
-[bullet] In short do not barge into situations you do not belong in and force yourself into it. Treat it like a real security or medical emergency; discuss things on the sides quietly, but do not intervene.[/color]
+[color=#a4885c]13.[/color] Esses cargos devem seguir a space law do WIZDEN.
+    - Se você não tem tempo para um round inteiro, não escolha esses cargos.
+    - Se você precisar sair, avise os admins e/ou a tripulação.
+    - Seja competente, você não tá ali pra bonito, se algo der errado, a responsabilidade é sua!
+    - Segurança e comando estão proibidos de usarem o uplink para receber contrabando sem a permissão do comando central.
+    - Não entregue itens a traidores e antagonistas a menos que haja uma troca no meio que irá beneficiar a tripulação.
+    - Siga as leis e mantenha a ordem, segurança deve capturar quem desrespeitar a lei, e os heads devem no mínimo realizar denúncias.
+    - Não abuse da sua posição, cuide do seu departamento e assim ajudará a estação garantindo que as coisas estão em ordem.
+    - Não contrate pessoas aleatórias para serem guarda-costas, fale com a segurança se precisar de um.
+    - Os líderes são os últimos a sairem da estação, você sabe o ditado, o capitão afunda com o navio.
 
-[color=#e6e6e6][color=#59ffe1][bold]4.3 -[/bold][/color] Because this is an HRP server, you should avoid abandoning your job for no good reason. You can focus on and off of work, or ask the Head of Personnel to clock you out if you plan to be away for quite some time. Don't spend the entire round away from your job while on duty and your department needs you.[/color]
+[color=#a4885c]14.[/color] Segurança e comando devem realizar as prisões sem letalidade e garantir que os presos não morram enqunto cumprem sua pena.
 
-[color=#e6e6e6][color=#59ffe1][bold]4.4 -[/bold][/color] This server uses a New Life rule. You may not remember any events that may have happened while you were in an unconscious or dead state. You may not retain any knowledge that you have learned whilst you were a ghost.[/color][color=#c4c4c4]
-[bullet] If you enter a dead state and get defibbed back to life you forget all the events that led up to your death. (This is the basic type of memory loss for anything else that is not specified)
-[bullet] If you enter a dead state and get cloned back to life you forget all the events since the beginning of the shift.
-[bullet] Respawning as a new character eliminates all memory of everything that may have happened previously in that shift.[/color]
+Nessas circumstâncias, força letal pode ser usada pela segurança:
+    - O seu alvo está armado e perigoso.
+    - O suspeito está com equipamento perigoso e não está se rendendo.
+    - A sua ou a vida de outra pessoa está em perigo imediato.
+    - O suspeito não pode ser contido de formas não letais, com ou sem o uso de algo como os freedom implanters por exemplo.
+    - Se não há outras opções e deixar o suspeito solto é um perigo para todos.
 
-[color=#e6e6e6][color=#59ffe1][bold]4.5 -[/bold][/color] Full continuity of your character and events that happen to them is to be expected. All rounds are canonical unless stated otherwise by an admin.[/color][color=#c4c4c4]
-[bullet] You are allowed to recall past shifts in any manner unless it violates the New Life rule.
-[bullet] Punishments you receive will be enforced and carried out in-character throughout rounds. If your character gets demoted, you are expected to stay out of that job until a reasonable amount of time has passed or you are rehired again in-game.
-[bullet] Your characters should generally hold no more than two departmental jobs and a service side job in-character. You may swap departments from time to time so long as it doesn't happen constantly or consistently.
-[bullet] Permanent death is not required, as there is an off-site DNA storages available for all crewmembers.[/color]
+[color=#a4885c]15.[/color] A segurança e comando devem proteger os detidos a menos que eles sejam um perigo grande para a estação ou suas vidas.
+    - Tempos de pena não devem passar de 20 minutos a menos que eles podem acarretar em prisão perpétua.
+    - Segurança pode confiscar armas e itens perigosos que possam estar causando problema nas mãos dos detidos.
+    - Segurança pode confiscar o PDA se houver provas de que há contrabando nele.
+    - Checar a tripulação por implantes é explícitamente contra as regras.
+    - A menos que legalmente executados ou mortos por suícidio, os detentos devem ser revividos caso morrerem em custódia.
+    - Execuções só podem ser admnistradas por crimes capitais e devem ser permitidas pelo oficial de segurança com o maior ranque.
+    - Detentos possuem o direito de saber o porque estão sendo detidos.
 
-[color=#e6e6e6][color=#59ffe1][bold]4.6 -[/bold][/color] Stay within your job, reasonable knowledge, and abilities.[/color][color=#c4c4c4]
-[bullet] Do not use knowledge that you have learned out-of-character while you are in-character. This is referred to as "metagaming."
-[bullet] Unless your character has a past in a particular line of work, they should not know how to do jobs outside of their own.
-[bullet] Do not do the jobs of other people for them, only play the role you signed up for. If you want to work a different job, ask the Head of Personnel for a job change. Exceptions can be made for if no active staff exist for a department.
-[bullet] Basic crew should not be knowledgeable on most non-NT technology and items unless they've experienced it in-character. Security and command may have some leeway within reason.[/color]
-
-[color=#e6e6e6][color=#59ffe1][bold]4.7 -[/bold][/color] Command and security are expected to be competent, to be lawful, and to follow procedure.[/color][color=#c4c4c4]
-[bullet] Neither roles should be grossly incompetent at their job or in their judgment. You are held to higher standards and should be able to be depended upon. Be a role-model for your department.
-[bullet] You cannot take direct, unchallengeable orders from people other than your job superiors.
-[bullet] You should not knowingly break the law as either command or security.
-[bullet] Command staff should know Standard Operating Procedure and follow it to the best of their abilities. Security should know both Standard Operating Procedure and Space-Law; they should follow them and enforce them to the best of their abilities. Failure to do so will likely result in a role-ban.
-[bullet] (Currently, we use Wizard's Den Space-Law and SOP; you can find these at https://wiki.spacestation14.io/wiki.)[/color]
+[color=#a4885c]16.[/color] Ninguém do comando além do Quartermaster/Logistics officer/Oficial de logística (como preferir chamar) pode sair em expedições sem permissão do comando central.
