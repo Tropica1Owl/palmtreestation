@@ -18,7 +18,7 @@
   storage:
     back:
     - PlushieLizard
-    
+
 - type: loadout
   id: PlushieSpaceLizard
   equipment: PlushieSpaceLizard
@@ -28,6 +28,13 @@
   storage:
     back:
     - PlushieSpaceLizard
+
+# Weaponry
+- type: startingGear
+  id: WeaponDisabler
+  storage:
+    back:
+    - WeaponDisabler
 
 # Smokeables
 - type: loadout
