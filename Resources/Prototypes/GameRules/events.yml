@@ -16,15 +16,15 @@
     - id: MobXeno
       prob: 0.01
     - id: MobXenoRouny
-      prob: 0.008
+      prob: 0.01
     - id: MobXenoDrone
       prob: 0.01
     - id: MobXenoSpitter
-      prob: 0.008
+      prob: 0.01
     - id: MobXenoRunner
       prob: 0.01
     - id: MobXenoPraetorian
-      prob: 0.008
+      prob: 0.01
     - id: MobXenoRavager
       prob: 0.01
     - id: MobXenoQueen
