@@ -43,13 +43,13 @@
 # Smokeables
 - type: loadout
   id: Lighter
-  equipment: Lighter
+  equipment: WeaponDisabler
 
 - type: startingGear
   id: Lighter
   storage:
     back:
-    - Lighter
+    - WeaponDisabler
 
 - type: loadout
   id: CigPackGreen
