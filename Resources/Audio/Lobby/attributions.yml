@@ -1,4 +1,4 @@
-﻿- files: ["thunderdome.ogg"]
+- files: ["thunderdome.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "-Sector11 by MashedByMachines. Converted from MP3 to OGG."
   source: "https://www.newgrounds.com/audio/listen/312622"
@@ -68,3 +68,104 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "every light is blinking at once by Alexander Divine."
   source: "https://soundcloud.com/alexanderdivine/every-light-is-blinking-at-once"
+
+- files: ["lightupthenight.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Light Up The Night by Protomen"
+  source: "https://www.youtube.com/watch?v=gkLvpt9Z3fA"
+
+- files: ["TF2_DapperCadaver.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Dapper Cadaver by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["TF2_ItHatesMeSoMuch.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "It Hates Me So Much by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["TF2_RedBread.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Red Bread by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["TF2_RiseOfTheLivingBread.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Rise Of The Living Bread by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["TF2_SeduceMe.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Seduce Me by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["TF2_StinkLines.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Stink Lines by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["TF2_ThreeDaysToLive.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Three Days To Live by Valve Studio Orchestra"
+  source: "https://youtube.com/playlist?list=PL0skZbNVczal2nDA1Fe1WuS4p9eUcNk7X&si=g3Oz9aBTO_8vM_GS"
+
+- files: ["MurderBrings.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Murder Brings by AJ DiSpirito"
+  source: "https://www.youtube.com/watch?v=LaZA7k0sbv0"
+
+- files: ["P2_9999999.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "9999999 by Aperture Science Psychoacoustic Laboratories"
+  source: "https://www.youtube.com/watch?v=wgVTmt6t3hg"
+
+- files: ["P2_ReconstructingMoreScience.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Reconstructing More Science by Aperture Science Psychoacoustic Laboratories"
+  source: "https://youtu.be/WAeiqxNH3W0"
+
+- files: ["BrainFreeze.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Brain Freeze by Frank Klepacki"
+  source: "https://www.youtube.com/watch?v=PoYk0SdCwvk"
+
+- files: ["MilitantForce.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Militant Force by Frank Klepacki"
+  source: "https://www.youtube.com/watch?v=SIhwZwL6pRw"
+
+- files: ["Target.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Mechanical Man (Target) by Frank Klepacki"
+  source: "https://www.youtube.com/watch?v=pvf9uUAfCgo"
+
+- files: ["starman.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Starman by David Bowie"
+  source: "https://www.youtube.com/watch?v=aBKEt3MhNMM"
+
+- files: ["carmenmirandasghost.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Carmen Miranda's Ghost by Leslie Fish"
+  source: "https://www.youtube.com/watch?v=hbs4Ei--Gk4"
+
+- files: ["rocketridersprayer.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Rocket Rider's Prayer by Cecilia Eng"
+  source: "https://www.youtube.com/watch?v=MApwCxI6Oek"
+
+- files: ["dawsonschristian.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Dawson's Christian by Vic Tyler"
+  source: "https://www.youtube.com/watch?v=VyVuuXUR7Lc"
+
+  - files: ["milkyway.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Milkyway"
+  source: "SS13 / Unknown"
+
+  - files: ["twilight.ogg"]
+  license: "All rights reserved. (Fair use)"
+  copyright: "Twilight"
+  source: "SS13 / Unknown"
+

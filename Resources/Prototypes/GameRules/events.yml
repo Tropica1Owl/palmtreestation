@@ -6,7 +6,7 @@
   - type: StationEvent
     startAnnouncement: station-event-xeno-vent-start-announcement
     startAudio:
-      path: /Audio/Announcements/aliens.ogg
+      collection: AnnouncerInternAlert
     earliestStart: 45
     minimumPlayers: 0
     weight: 1
@@ -171,7 +171,7 @@
   - type: StationEvent
     startAnnouncement: station-event-gas-leak-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     endAnnouncement: station-event-gas-leak-end-announcement
     weight: 8
   - type: GasLeakRule
@@ -198,9 +198,7 @@
     startAnnouncement: station-event-meteor-swarm-start-announcement
     endAnnouncement: station-event-meteor-swarm-end-announcement
     startAudio:
-      path: /Audio/Announcements/meteors.ogg
-      params:
-        volume: -4
+      path: /Audio/Palmtree/Announcer/Intern/meteors.ogg
     duration: null #ending is handled by MeteorSwarmRule
   - type: MeteorSwarmRule
 
@@ -211,7 +209,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     earliestStart: 15
     weight: 6
     duration: 50
@@ -233,7 +231,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     weight: 6
     duration: 50
   - type: VentCrittersRule
@@ -252,9 +250,7 @@
     startAnnouncement: station-event-power-grid-check-start-announcement
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
-      path: /Audio/Announcements/power_off.ogg
-      params:
-       volume: -4
+      path: /Audio/Palmtree/Announcer/Intern/poweroff.ogg
     duration: 60
     maxDuration: 120
   - type: PowerGridCheckRule
@@ -269,7 +265,7 @@
     duration: 1
     maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
   - type: RandomSentienceRule
 
 - type: entity
@@ -281,7 +277,7 @@
     startAnnouncement: station-event-solar-flare-start-announcement
     endAnnouncement: station-event-solar-flare-end-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     duration: 120
     maxDuration: 240
   - type: SolarFlareRule
@@ -307,7 +303,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-clog-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     earliestStart: 15
 
     weight: 5
@@ -321,7 +317,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     earliestStart: 20
 
     weight: 5
@@ -342,7 +338,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     earliestStart: 20
 
     weight: 5
@@ -359,7 +355,7 @@
   - type: StationEvent
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     earliestStart: 20
 
     weight: 1.5
@@ -391,7 +387,7 @@
       briefing:
         text: zombie-patientzero-role-greeting
         color: Plum
-        sound: "/Audio/Ambience/Antag/zombie_start.ogg"
+        sound: "/Audio/Palmtree/Announcer/Intern/outbreak5.ogg"
       components:
       - type: PendingZombie #less time to prepare than normal
         minInitialInfectedGrace: 300
@@ -426,7 +422,7 @@
   - type: StationEvent
     startAnnouncement: station-event-immovable-rod-start-announcement
     startAudio:
-      path: /Audio/Announcements/attention.ogg
+      collection: AnnouncerInternAlert
     weight: 3.5
     duration: 1
     earliestStart: 30

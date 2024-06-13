@@ -1,0 +1,34 @@
+- type: soundCollection
+  id: AnnouncerInternAlert
+  files:
+    - /Audio/Palmtree/Announcer/Intern/Alerts/1.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/2.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/3.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/4.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/5.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/6.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/7.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/8.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/9.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/10.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/11.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/12.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/13.ogg
+    - /Audio/Palmtree/Announcer/Intern/Alerts/14.ogg
+
+- type: soundCollection
+  id: AnnouncerInternCommandReport
+  files:
+    - /Audio/Palmtree/Announcer/Intern/CommandReport/1.ogg
+    - /Audio/Palmtree/Announcer/Intern/CommandReport/2.ogg
+    - /Audio/Palmtree/Announcer/Intern/CommandReport/3.ogg
+
+- type: soundCollection
+  id: AnnouncerInternWelcome
+  files:
+    - /Audio/Palmtree/Announcer/Intern/Welcome/1.ogg
+    - /Audio/Palmtree/Announcer/Intern/Welcome/2.ogg
+    - /Audio/Palmtree/Announcer/Intern/Welcome/3.ogg
+    - /Audio/Palmtree/Announcer/Intern/Welcome/4.ogg
+    - /Audio/Palmtree/Announcer/Intern/Welcome/5.ogg
+    - /Audio/Palmtree/Announcer/Intern/Welcome/6.ogg
