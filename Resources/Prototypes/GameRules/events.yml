@@ -459,6 +459,8 @@
   id: IonStorm
   components:
   - type: StationEvent
+    startAudio:
+      path: /Audio/Palmtree/Announcer/Intern/ionstorm.ogg
     weight: 8
     reoccurrenceDelay: 20
     duration: 1
