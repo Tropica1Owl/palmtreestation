@@ -4039,12 +4039,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 4.5,9.5
       parent: 2
-  - uid: 599
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 5.5,3.5
-      parent: 2
   - uid: 600
     components:
     - type: Transform
@@ -4205,6 +4199,12 @@ entities:
       parent: 2
 - proto: GasPressurePump
   entities:
+  - uid: 599
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.5,3.5
+      parent: 2
   - uid: 627
     components:
     - type: Transform
