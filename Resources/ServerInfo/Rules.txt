@@ -10,7 +10,9 @@
 
 [color=#00ff00]GRIEF DE FIM DE ROUND (ou seja, quando você chega na centcom) NÃO É PERMITIDO![/color]
 
-[color=#ffff00]Aqui no Palmtree Station o foco é em permitir que os jogadores utilizem o roleplay como veículo para contar suas histórias, sem manter o foco em ganhar. Errar ou ir mal no seu cargo é okay![/color]
+[color=#ffff00]Aqui no Palmtree Station o foco é em permitir que os jogadores utilizem o roleplay como veículo para contar suas histórias, sem manter o foco em ganhar. Errar ou ir mal no seu cargo é okay! Se você for head isso talvez não seja válido.[/color]
+
+Antes de tudo preciso mencionar que agentes livres (como esqueletos) não são agentes livres aqui, e estão sujeitos à regras de self-antag. Não somos o Wizden, estamos te avisando agora, não reclame.
 
 Quaisquer perguntas você poderá dirigir a staff no F1!
 
@@ -43,11 +45,11 @@ Quaisquer perguntas você poderá dirigir a staff no F1!
 
 [color=#a4885c]4.[/color] Siga as regras de metagaming!
     - Não aja em coisas que você viu quando morto.
-    - Não converse com outros jogadores por fora do jogo no mesmo round.
+    - Evite conversar com outros jogadores por fora do jogo no mesmo round.
     - Jogadores podem ter amizades em IC, mas garantir benefícios para esses amigos é proibido.
     - Você é permitido se lembrar do que rolou em outros rounds, mas não o fim trágico deles, não faria sentido para alguém do sindicato do nada trabalhar pra Nanotrasen, da mesma forma que você também não deve carregar mágoas de conflitos passados.
     - Itens de sindicato não devem ser tratados como contrabando, não há traidores.
-    - [color=#ff0000]Não transmita o round ao vivo sem permissão de um admnistrador.[/color]
+    - [color=#ff0000]Transmitir o round é okay, não tem traidores.[/color]
 
 [color=#a4885c]5.[/color] Jogadores revividos lembram de tudo assim que revividos por defibrilador, se revividos por clonagem esquecem a razão da morte. [color=#ff0000]Denuncie jogadores que violarem essa regra.[/color]
 
