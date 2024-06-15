@@ -11,7 +11,7 @@
     proto: CartridgeSWS
     count: 1
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/Pulse.rsi
+    sprite: Palmtree//Objects/Weapon/Guns/Ammunition/Cartridges/SWSPulseCartridge.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]

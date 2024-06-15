@@ -1,29 +1,31 @@
-- type: entity
-  id: MagazinePlasmaCutter
-  name: Plasma Energy Battery
-  parent: BaseMagazinePistol
-  description: Small energy cells, which holds gasses that can create plasma.
-  components:
-  - type: Tag
-    tags:
-      - MagazinePlasmaCutter
-  - type: BallisticAmmoProvider
-    mayTransfer: true
-    proto: BasePlasmaCutterEnergyShell
-    capacity: 14
-    whitelist:
-      tags:
-        - BasePlasmaCutterEnergyShell
-  - type: ContainerContainer
-  - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/Ammunition/Plasma/CutterCartridge.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: mag
-    steps: 5
-    zeroVisible: false
-  - type: Appearance
+#talvez não irá mais precisar disso
+
+#- type: entity
+ # id: MagazinePlasmaCutter
+  #name: Plasma Energy Battery
+  #parent: BaseMagazinePistol
+  #description: Small energy cells, which holds gasses that can create plasma.
+  #components:
+  #- type: Tag
+  #  tags:
+  #    - MagazinePlasmaCutter
+  #- type: BallisticAmmoProvider
+  #  mayTransfer: true
+  #  proto: BasePlasmaCutterEnergyShell
+  #  capacity: 14
+  # whitelist:
+  #    tags:
+  #      - BasePlasmaCutterEnergyShell
+  #- type: ContainerContainer
+  #- type: Sprite
+  #  sprite: Palmtree/Objects/Weapon/Guns/Ammunition/Plasma/CutterCartridge.rsi
+  #  layers:
+  #  - state: base
+  #    map: ["enum.GunVisualLayers.Base"]
+  # - state: mag-1
+  #    map: ["enum.GunVisualLayers.Mag"]
+  #- type: MagazineVisuals
+  # magState: mag
+  #  steps: 5
+  # zeroVisible: false
+  #- type: Appearance

@@ -1,6 +1,6 @@
 - type: entity
   id: MagazineSWS
-  name: Pulse Magazine
+  name: SWS Magazine
   parent: BaseMagazineLightRifle
   description: Holds ammunition for the SWS Motorized Pulse Rifle
   components:

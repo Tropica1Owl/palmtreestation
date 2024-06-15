@@ -11,14 +11,14 @@
   description: A standard-issue ballistic firearm which can be loaded with grenades or proximity mines for riot conditions, or personalized for faster reloading.
   components:
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/PulseRifle.rsi
+    sprite: Palmtree/Objects/Weapon/Guns/Rifles/SWS.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/PulseRifle.rsi
+    sprite: Palmtree/Objects/Weapon/Guns/Rifles/SWS.rsi
     quickEquip: false
     slots:
     - Back
@@ -33,30 +33,30 @@
       - FullAuto
       - Burst
     soundGunshot:
-      path: /Audio/Palmtree/Weapons/PulseRifle/tiro1.ogg
+      collection: SWSshots
       params:
         volume: -5
   - type: ChamberMagazineAmmoProvider
     soundRack:
-      path: /Audio/Palmtree/Weapons/PulseRifle/destravar.ogg
+      path: /Audio/Palmtree/Weapons/Guns/Bolt/sws_bolt_open.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazinePulseRounds
-        insertSound: /Audio/Palmtree/Weapons/PulseRifle/colocarmunição.ogg
-        ejectSound: /Audio/Palmtree/Weapons/PulseRifle/tirarmunição.ogg
+        startingItem: MagazineSWS
+        insertSound: /Audio/Palmtree/Weapons/Guns/MagIn/sws_magin.ogg
+        ejectSound: /Audio/Palmtree/Weapons/Guns/Magout/sws_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazinePulseRounds
+            - MagazineSWS
       gun_chamber:
         name: Chamber
-        startingItem: CartrigdePulse
+        startingItem: CartridgeSWS
         priority: 1
         whitelist:
           tags:
-            - CartrigdePulse
+            - CartridgeSWS
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
