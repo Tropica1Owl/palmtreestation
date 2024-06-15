@@ -36,8 +36,15 @@
 - type: soundCollection
   id: NecromorphScreams
   files:
-    - /Audio/Palmtree/Mobs/NecromorphSlasher/grito1.ogg
-    - /Audio/Palmtree/Mobs/NecromorphSlasher/grito2.ogg
-    - /Audio/Palmtree/Mobs/NecromorphSlasher/suspiro1.ogg
-    - /Audio/Palmtree/Mobs/NecromorphSlasher/grito3.ogg
-    - /Audio/Palmtree/Mobs/NecromorphSlasher/suspiro2.ogg
+    - /Audio/Palmtree/Animals/necro1.ogg
+    - /Audio/Palmtree/Animals/necro2.ogg
+    - /Audio/Palmtree/Animals/necro3.ogg
+    - /Audio/Palmtree/Animals/necro4.ogg
+    - /Audio/Palmtree/Animals/necro5.ogg
+
+- type: soundCollection
+  id: SWSshots
+  files:
+    - /Audio/Palmtree/Weapons/Guns/Gunshots/sws1.ogg
+    - /Audio/Palmtree/Weapons/Guns/Gunshots/sws2.ogg
+    - /Audio/Palmtree/Weapons/Guns/Gunshots/sws3.ogg

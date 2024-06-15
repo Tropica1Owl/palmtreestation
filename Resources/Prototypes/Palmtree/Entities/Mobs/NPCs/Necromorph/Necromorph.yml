@@ -119,7 +119,7 @@
     Cold: 0.0 # Não existe arma que cause dano de frio, né? Por enquanto...
     Heat: 1.25
     Poison: 0.5
-    Radiation: 0.0
+    Radiation: 0.4
     Asphyxiation: 0.0
     Bloodloss: 0.0
     Cellular: 0.0
