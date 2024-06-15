@@ -57,3 +57,12 @@
 
 - files: ["ferrous.yml"]
   authors: PurusitinAshes
+  
+#Palmtree Maps
+#These are located in Maps
+
+- files: ["falcon.yml"]
+  authors: CRISOOOOO, BenDJaminUt
+  
+- files: ["knightship.yml"]
+  authors: CRISOOOOO, kerisar21
