@@ -14,6 +14,8 @@
 
 Antes de tudo preciso mencionar que agentes livres (como esqueletos) não são agentes livres aqui, e estão sujeitos à regras de self-antag. Não somos o Wizden, estamos te avisando agora, não reclame.
 
+Já que se deu o trabalho de ler as regras, aqui vai uma dica de amigo: Prefira sempre os spawns nos cryo sleepers na hora de criar seu personagem ;)
+
 Quaisquer perguntas você poderá dirigir a staff no F1!
 
 [color=#a4885c]0.[/color] Admins podem agir fora das regras se é de interesse da comunidade geral ou do flow do round.
@@ -27,7 +29,6 @@ Quaisquer perguntas você poderá dirigir a staff no F1!
     - Não abuse de bugs ou exploits (hacks) externos. [color=#ff0000]Temos tolerância zero para exploits.[/color]
     - Se você ganhar um ban de um trabalho em específico, não será permitido que jogue disso, isso inclui procurar um HoP para ele lhe dar a posição, e será tratado como ban evading, exceção sendo se você é a única pessoa capaz de exercer tal função.
     - Não seja um problema, distração ou incômodo de larga escala para a tripulação.
-    - Não esconda a nuke num lugar impossível de se ver.
     - Não dê flood no ahelp, se você tem um problema, não pergunte "Tem admin ai?", apenas FALE O PROBLEMA! Assim a situação é resolvida infinitamente mais rápida!
     - Greves e revoluções (exemplo, cargonia) não são permitidos.
     - Jogadores SSD ou AFK tem os mesmos direitos que jogadores normais.
@@ -37,7 +38,7 @@ Quaisquer perguntas você poderá dirigir a staff no F1!
     - Use português ou inglês como seu método de comunicação.
     - Sem spam.
     - Sem anúncio.
-    - Não use netspeak e/ou abreviações. (lol, kk, q, pq, ss, nn)
+    - Evite usar netspeak e/ou abreviações enquanto não possuímos auto-correct. (lol, kk, q, pq, ss, nn)
     - O canal de emotes é exclusivo para emotes, língua de sinal não existe PRINCIPALMENTE se você for um hamster (eu não acredito que tô tendo que escrever isso).
     - Use os canais LOOC e OOC apropriadamente, não fale de assuntos dos rounds neles.
     - Discursos de ódio não são permitidos de forma alguma nem xingamentos que lembram palavras na vida real. "Eu tava brincando" não é desculpa.
@@ -54,8 +55,8 @@ Quaisquer perguntas você poderá dirigir a staff no F1!
 [color=#a4885c]5.[/color] Jogadores revividos lembram de tudo assim que revividos por defibrilador, se revividos por clonagem esquecem a razão da morte. [color=#ff0000]Denuncie jogadores que violarem essa regra.[/color]
 
 [color=#a4885c]6.[/color] Todos os seres construídos e sumonados possuem leis que eles devem seguir.
-    - Se há um mestre, o ser deve seguir o mestre.
-    - Seu mestre tem a responsabilidade por más ações que você fazer em seu nome e ordens.
+    - Golems e dionas cultivadas devem seguir a sci e os botanistas respectivamente.
+    - Seu mestre tem a responsabilidade por tudo que você realizar sob comando dele.
     - Ter recebido livre arbítrio não te torna um antag, não pratique self-antag.
 
 [color=#a4885c]7.[/color] Siga as convenções de nome!
@@ -64,49 +65,38 @@ Quaisquer perguntas você poderá dirigir a staff no F1!
         * Que não pertube o roleplay.
       OU
         * Ser um nome aleatório.
-    - Cargos artísticos, como mímico, palhaço ou boxeador possuem liberdade para terem nomes artísticos também, desde que não sejam ofensivos, explícitos, ou terrívelmente anti-rp, um palhaço com o nome "Patati Patatráfico" por exemplo é okay.
+    - Há cargos com o passe artístico que permite que você tenha nomes ecêntricos, esses são:
+    - Palhaço
+    - Mimíco
+    - Músico (Quem se juntar a sua banda pode ter nome artístico também!)
+    - Detetive (Faça sua própria história noir!)
 
 [color=#a4885c]8.[/color] Siga a linha no roleplay!
     - Trate seu personagem como uma entidade separada de você!
     - Desenvolvimento de personagem pode ocorrer, mas se lembre, como mencionado préviamente, todo round é um reset leve! Não se lembre das suas mortes passadas nem dos traidores!
     - Comando e segurança estão num padrão maior de roleplay.
-    - Prisioneiro é um role de ROLEPLAY. Você não é um antagonista e será punido se agir como um, se lembre do agravante por não saber as regras.
+    - Prisioneiro é um role de ROLEPLAY. Você não é um antagonista e será punido se agir como um, não saber disso não é desculpa, estou assumindo que leu o começo das regras.
 
 [color=#a4885c]9.[/color] Siga as linhas de escalamento.
     - Não escale as coisas sem necessidade, um soco não é razão para você matar a pessoa.
     - Ghost roles antagônicos ou de peste, como ratos, são fair game para serem atacados, mas pets de familiars não.
     - Se o conflito resultar em crit, ajude a pessoa.
 
-[color=#a4885c]10.[/color] Siga as regras de antagonista.
-    - Antagonistas devem agir apenas em função de seus objetivos, se você não sabe se algo é permitido, pergunte! A situação muda de momento para momento.
-    - Outros antagonistas não são necessáriamente seus amigos, mas trabalho em equipe faz a força mesmo assim!
-    - Ser chatão como campar arrivals, extender o round, usar exploits e afins é proibido.
-    - Ghost roles possuem regras que devem ser seguidas. [color=#ff0000]Quebrar essas regras RESULTARÁ em um ban![/color]
-
-[color=#a4885c]11.[/color] Psiônicos.
-    - Jogadores podem usar seus poderes psiônicos para fins de roleplay, mas há de se lembrar que há consequências pelo uso contínuo, como ter seus poderes retirados e até morte.
-
-[color=#a4885c]12.[/color] Não prepare equipamento antes da hora. (Geralmente referido como powergaming)
-    - A única isenção das regras a seguir são para armas de classe civil, que podem ser equipadas no loadout e desbloqueadas com tempo de jogo (yup, você ganha arma grátis, se você não tivesse lido as regras não saberia disso!)
-    - Tenha uma boa razão para ter as coisas, o assistente não precisa de uma glock-17, o médico não precisa de cartucho de carabina, e o HoP não precisa de uma bomba atômica.
-    - Não crie armas apenas pela possibilidade de precisar.
-    - Não esconda objetivos de traidor preemptivamente apenas no caso deles precisarem ser pegos.
+[color=#a4885c]10.[/color] Não prepare equipamento antes da hora. (Geralmente referido como powergaming)
+    - A única isenção dessa regra são para armas de classe civil ou caseiras, que podem ser equipadas no loadout e desbloqueadas com tempo de jogo (yup, você ganha arma grátis, se você não tivesse lido as regras não saberia disso!)
 
 [color=#ff0000]REGRAS DE SEGURANÇA & COMANDO[/color]
-Essas regras se aplicam a quem for promovido também, a menos que a pessoa seja um antagonista.
+Essas regras se aplicam a quem for promovido também.
 
-[color=#a4885c]13.[/color] Esses cargos devem seguir a space law do WIZDEN.
-    - Se você não tem tempo para um round inteiro, não escolha esses cargos.
-    - Se você precisar sair, avise os admins e/ou a tripulação.
+[color=#a4885c]11.[/color] Esses cargos devem seguir a space law do WIZDEN.
+    - Se você precisar sair, avise os admins e/ou a tripulação, coloque suas coisas no seu armário e entre na cryo pra que outra pessoa possa assumir o cargo, falhar em realizar isso poderá resultar em roleban caso se torne um problema ao decorrer do round.
     - Seja competente, você não tá ali pra bonito, se algo der errado, a responsabilidade é sua!
-    - Segurança e comando estão proibidos de usarem o uplink para receber contrabando sem a permissão do comando central.
-    - Não entregue itens a traidores e antagonistas a menos que haja uma troca no meio que irá beneficiar a tripulação.
     - Siga as leis e mantenha a ordem, segurança deve capturar quem desrespeitar a lei, e os heads devem no mínimo realizar denúncias.
     - Não abuse da sua posição, cuide do seu departamento e assim ajudará a estação garantindo que as coisas estão em ordem.
-    - Não contrate pessoas aleatórias para serem guarda-costas, fale com a segurança se precisar de um.
     - Os líderes são os últimos a sairem da estação, você sabe o ditado, o capitão afunda com o navio.
+    - Apesar da space law ser do WIZDEN, armas com civis e itens do sindicato não podem ser tratados como contrbando (são obtíveis normalmente)
 
-[color=#a4885c]14.[/color] Segurança e comando devem realizar as prisões sem letalidade e garantir que os presos não morram enqunto cumprem sua pena.
+[color=#a4885c]12.[/color] Segurança e comando devem realizar as prisões sem letalidade e garantir que os presos não morram enqunto cumprem sua pena.
 
 Nessas circumstâncias, força letal pode ser usada pela segurança:
     - O seu alvo está armado e perigoso.
@@ -114,8 +104,9 @@ Nessas circumstâncias, força letal pode ser usada pela segurança:
     - A sua ou a vida de outra pessoa está em perigo imediato.
     - O suspeito não pode ser contido de formas não letais, com ou sem o uso de algo como os freedom implanters por exemplo.
     - Se não há outras opções e deixar o suspeito solto é um perigo para todos.
+    - Não é humanóide e/ou sentiente e posa perigo para a estação.
 
-[color=#a4885c]15.[/color] A segurança e comando devem proteger os detidos a menos que eles sejam um perigo grande para a estação ou suas vidas.
+[color=#a4885c]13.[/color] A segurança e comando devem proteger os detidos a menos que eles sejam um perigo grande para a estação ou suas vidas.
     - Tempos de pena não devem passar de 20 minutos a menos que eles podem acarretar em prisão perpétua.
     - Segurança pode confiscar armas e itens perigosos que possam estar causando problema nas mãos dos detidos.
     - Segurança pode confiscar o PDA se houver provas de que há contrabando nele.
@@ -123,5 +114,3 @@ Nessas circumstâncias, força letal pode ser usada pela segurança:
     - A menos que legalmente executados ou mortos por suícidio, os detentos devem ser revividos caso morrerem em custódia.
     - Execuções só podem ser admnistradas por crimes capitais e devem ser permitidas pelo oficial de segurança com o maior ranque.
     - Detentos possuem o direito de saber o porque estão sendo detidos.
-
-[color=#a4885c]16.[/color] Ninguém do comando além do Quartermaster/Logistics officer/Oficial de logística (como preferir chamar) pode sair em expedições sem permissão do comando central.
