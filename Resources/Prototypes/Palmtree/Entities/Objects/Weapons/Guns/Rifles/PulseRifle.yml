@@ -1,0 +1,70 @@
+- type: Tag
+  id: MagazinePulseRounds
+
+- type: Tag
+  id: CartrigdePulsos
+
+- type: entity
+  name: Rifle de Pulsos
+  parent: BaseWeaponRifle
+  id: WeaponRiflePulseRifle
+  description: Um rifle de assalto da CEC que dispara projéteis de ultrabaixo calibre em velocidades hipersónicas. "Quando um cano não é suficiente". Usa Pulsos como munição.
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/PulseRifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/PulseRifle.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: AmmoCounter
+  - type: Gun
+    cameraRecoilScalar: 0.4
+    projectileSpeed: 40
+    fireRate: 9
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+      - Burst
+    soundGunshot:
+      path: /Audio/Palmtree/Weapons/PulseRifle/tiro1.ogg
+      params:
+        volume: -5
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Palmtree/Weapons/PulseRifle/destravar.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePulseRounds
+        insertSound: /Audio/Palmtree/Weapons/PulseRifle/colocarmunição.ogg
+        ejectSound: /Audio/Palmtree/Weapons/PulseRifle/tirarmunição.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePulseRounds
+      gun_chamber:
+        name: Chamber
+        startingItem: CartrigdePulsos
+        priority: 1
+        whitelist:
+          tags:
+            - CartrigdePulsos
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 2000

@@ -1,0 +1,20 @@
+- type: entity
+  id: EletricPlasma
+  name: EletricPlasma
+  noSpawn: true
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Weapon/Guns/Pistol/Plasma_Cutter/eletricplasma.rsi
+    layers:
+    - state: eletric_shot
+      shader: unshaded
+  - type: GatheringProjectile
+  - type: Projectile
+    impactEffect: ImpactEletric
+    damage:
+      types:
+        Slash: 10 # cortador de plasma, preciso dizer algo?
+        Heat: 4 # ar ionizado não deve ser frio, então queima. 
+        Structural: 15 # Logical disse que isso não parecia uma ferramenta.
+        # Vai dar 42 de dano por disparo de Plasma Cutter mais 45 de dano estrutural para destruir estruturas.
