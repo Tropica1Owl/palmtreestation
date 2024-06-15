@@ -1,0 +1,17 @@
+- type: entity
+  id: ImpactEletric
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 0.25
+  - type: Sprite
+    drawdepth: Effects
+    layers:
+    - shader: unshaded
+      map: ["enum.EffectLayers.Unshaded"]
+      sprite: Palmtree/Objects/Weapon/Guns/Pistol/Plasma_Cutter/impacteletric.rsi
+      state: impact_eletric
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+      - HideContextMenu
