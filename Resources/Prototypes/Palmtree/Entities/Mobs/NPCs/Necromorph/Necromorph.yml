@@ -1,12 +1,3 @@
-- type: soundCollection
-  id: NecromorphScreams
-  files:
-    - /Audio/Palmtree/Voices/NecromorphSlasher/grito1.ogg
-    - /Audio/Palmtree/Voices/NecromorphSlasher/grito2.ogg
-    - /Audio/Palmtree/Voices/NecromorphSlasher/suspiro1.ogg
-    - /Audio/Palmtree/Voices/NecromorphSlasher/grito3.ogg
-    - /Audio/Palmtree/Voices/NecromorphSlasher/suspiro2.ogg
-
 - type: entity
   name: Carcaça
   parent: SimpleMobBase

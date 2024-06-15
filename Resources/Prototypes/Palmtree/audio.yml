@@ -32,3 +32,12 @@
     - /Audio/Palmtree/Announcer/Intern/Welcome/4.ogg
     - /Audio/Palmtree/Announcer/Intern/Welcome/5.ogg
     - /Audio/Palmtree/Announcer/Intern/Welcome/6.ogg
+
+- type: soundCollection
+  id: NecromorphScreams
+  files:
+    - /Audio/Palmtree/Mobs/NecromorphSlasher/grito1.ogg
+    - /Audio/Palmtree/Mobs/NecromorphSlasher/grito2.ogg
+    - /Audio/Palmtree/Mobs/NecromorphSlasher/suspiro1.ogg
+    - /Audio/Palmtree/Mobs/NecromorphSlasher/grito3.ogg
+    - /Audio/Palmtree/Mobs/NecromorphSlasher/suspiro2.ogg
