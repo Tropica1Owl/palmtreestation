@@ -3,6 +3,10 @@
   background: /Textures/Palmtree/Lobby/carp.png
 
 - type: lobbyBackground
+  id: FurryChill
+  background: /Textures/Palmtree/Lobby/chillf.png
+
+- type: lobbyBackground
   id: FurryHOS
   background: /Textures/Palmtree/Lobby/hosf.png
 
@@ -17,6 +21,10 @@
 - type: lobbyBackground
   id: FurryPlanet
   background: /Textures/Palmtree/Lobby/planetf.png
+
+- type: lobbyBackground
+  id: FurryPlanetside
+  background: /Textures/Palmtree/Lobby/planetsidef.png
 
 - type: lobbyBackground
   id: FurryMedbaySad
@@ -37,3 +45,7 @@
 - type: lobbyBackground
   id: SyndicateArtwork
   background: /Textures/Palmtree/Lobby/synd.png
+
+- type: lobbyBackground
+  id: FurryThief
+  background: /Textures/Palmtree/Lobby/thief.png
