@@ -1,22 +1,22 @@
 - type: entity
-  id: BasePentePlasmaCutter
-  name: Plasma Energy (Pente)
+  id: MagazinePlasmaCutter
+  name: Plasma Energy Battery
   parent: BaseMagazinePistol
-  description: Armazenar cápsulas de plasma para que sejam ionizados e disparados pelo Plasma Cutter. Carrega-se com Shell Energy.
+  description: Small energy cells, which holds gasses that can create plasma.
   components:
   - type: Tag
     tags:
-      - BasePentePlasmaCutter
+      - MagazinePlasmaCutter
   - type: BallisticAmmoProvider
     mayTransfer: true
-    proto: BaseEnergyShell
+    proto: BasePlasmaCutterEnergyShell
     capacity: 14
     whitelist:
       tags:
-        - BaseEnergyShell
+        - BasePlasmaCutterEnergyShell
   - type: ContainerContainer
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/Pistol/Plasma_Cutter/pente_plasma_cutter.rsi
+    sprite: Palmtree/Objects/Weapon/Guns/Ammunition/Plasma/CutterCartridge.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

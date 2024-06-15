@@ -1,14 +1,14 @@
 - type: Tag
-  id: MagazinePulseRounds
+  id: MagazineSWS
 
 - type: Tag
-  id: CartrigdePulsos
+  id: CartridgeSWS
 
 - type: entity
-  name: Rifle de Pulsos
+  name: SWS Motorized Pulse Rifle
   parent: BaseWeaponRifle
-  id: WeaponRiflePulseRifle
-  description: Um rifle de assalto da CEC que dispara projéteis de ultrabaixo calibre em velocidades hipersónicas. "Quando um cano não é suficiente". Usa Pulsos como munição.
+  id: WeaponSWSRifle
+  description: A standard-issue ballistic firearm which can be loaded with grenades or proximity mines for riot conditions, or personalized for faster reloading.
   components:
   - type: Sprite
     sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/PulseRifle.rsi
@@ -52,11 +52,11 @@
             - MagazinePulseRounds
       gun_chamber:
         name: Chamber
-        startingItem: CartrigdePulsos
+        startingItem: CartrigdePulse
         priority: 1
         whitelist:
           tags:
-            - CartrigdePulsos
+            - CartrigdePulse
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

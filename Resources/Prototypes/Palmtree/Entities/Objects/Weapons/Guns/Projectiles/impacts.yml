@@ -1,0 +1,35 @@
+- type: entity
+  id: ImpactPlasmaCut
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 0.25
+  - type: Sprite
+    drawdepth: Effects
+    layers:
+    - shader: unshaded
+      map: ["enum.EffectLayers.Unshaded"]
+      sprite: Palmtree/Objects/Weapon/Guns/Projectiles/Impacts/PlasmaCutter.rsi
+      state: impact_eletric
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+      - HideContextMenu
+      
+- type: entity
+  id: ImpactPulseShot
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 0.25
+  - type: Sprite
+    drawdepth: Effects
+    layers:
+    - shader: unshaded
+      map: ["enum.EffectLayers.Unshaded"]
+      sprite: Palmtree/Objects/Weapon/Guns/Projectiles/Impacts/SWSRifle.rsi
+      state: impact_pulse
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+      - HideContextMenu

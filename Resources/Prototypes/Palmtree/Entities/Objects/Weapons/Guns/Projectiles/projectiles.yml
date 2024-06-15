@@ -1,11 +1,28 @@
 - type: entity
-  id: EletricPlasma
-  name: EletricPlasma
+  id: PulseShot
+  name: pulse shot
   noSpawn: true
   parent: BaseBullet
   components:
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/Pistol/Plasma_Cutter/eletricplasma.rsi
+    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/CartrigdePulse.rsi
+    layers:
+    - state: effect_pulse
+      shader: unshaded
+  - type: Projectile
+    impactEffect: ImpactPulse
+    damage:
+      types:
+        Slash: 6
+        
+- type: entity
+  id: PlasmaCut
+  name: plasma cut
+  noSpawn: true
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Weapon/Guns/Pistol/PlasmaCutter/eletricplasma.rsi
     layers:
     - state: eletric_shot
       shader: unshaded

@@ -1,24 +1,24 @@
 - type: entity
-  id: MagazinePulseRounds
-  name: Rodadas de Pulso
+  id: MagazineSWS
+  name: Pulse Magazine
   parent: BaseMagazineLightRifle
-  description: Boa sorte tentando carregar esse pente com munição de pulsos. Usado no Rifle de Pulsos
+  description: Holds ammunition for the SWS Motorized Pulse Rifle
   components:
   - type: Tag
     tags:
-      - MagazinePulseRounds
+      - MagazineSWS
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
-        - CartrigdePulsos
-    proto: CartrigdePulsos
+        - CartridgeSWS
+    proto: CartridgeSWS
     capacity: 125
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/PulseRounds.rsi
+    sprite: Palmtree/Objects/Weapon/Guns/Ammunition/Magazines/SWSPulseMagazine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

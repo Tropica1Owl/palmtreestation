@@ -1,0 +1,64 @@
+- type: entity
+  name: 211-V Plasma Cutter
+  parent: BaseWeaponPistol
+  id: WeaponPistolPlasmaCutter
+  description: This compact cutter fires bolts of ionized plasma that cut easily through most surfaces, making it a cheap but versatile mining tool.
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Palmtree/Objects/Weapon/Guns/Pistol/PlasmaCutter.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Palmtree/Weapons/PlasmaCutter/shot.ogg
+      params:
+       volume: -6
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Palmtree/Weapons/PlasmaCutter/rack.ogg
+      
+# TODO: TROCAR POR BATERIAS. CUTTERS NÃO USAM CARTUCHOS! #
+      
+  # - type: ItemSlots
+    # slots:
+      # gun_magazine:
+        # name: Magazine
+        # startingItem: CartridgePlasmaCutter
+        # insertSound: /Audio/Palmtree/Weapons/PlasmaCutter/reload.ogg
+        # ejectSound:
+          # path: /Audio/Palmtree/Weapons/PlasmaCutter/eject.ogg
+          # params:
+            # volume: -4
+        # priority: 2
+        # whitelist:
+          # tags:
+            # - CartridgePlasmaCutter
+      # gun_chamber:
+        # name: Chamber
+        # startingItem: CartridgePlasmaCutter
+        # priority: 1
+        # whitelist:
+          # tags:
+            # - CartridgePlasmaCutter
+  # - type: ContainerContainer
+  # - type: MagazineVisuals
+    # magState: mag
+    # steps: 1
+    # zeroVisible: true
+  # - type: Appearance
+  # - type: StaticPrice
+    # price: 1200

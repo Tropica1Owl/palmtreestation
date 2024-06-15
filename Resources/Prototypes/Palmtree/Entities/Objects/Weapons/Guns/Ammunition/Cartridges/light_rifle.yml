@@ -1,14 +1,14 @@
 - type: entity
-  id: CartrigdePulsos
-  name: Pulsos
+  id: CartridgeSWS
+  name: SWS Cartridge
   parent: BaseCartridgeLightRifle
-  description: Munições de ultrabaixo calibre. Quem vê o estrago feito pelo projétil desse cartucho concorda que tamanho não é documento.
+  description: Ultra-low caliber cartridges to be used in SWS Rifles.
   components:
   - type: Tag
     tags:
-      - CartrigdePulsos
+      - CartridgeSWS
   - type: CartridgeAmmo
-    proto: EffectPulse
+    proto: CartridgeSWS
     count: 1
   - type: Sprite
     sprite: Palmtree/Objects/Weapon/Guns/RIfles/PulseRifle/Pulse.rsi

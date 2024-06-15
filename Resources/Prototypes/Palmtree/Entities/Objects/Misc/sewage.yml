@@ -1,7 +1,7 @@
 - type: entity
-  id: FloorWaterEsgotoEntity
-  name: Água de Esgoto
-  description: Beba para matar a sede e tudo que estiver dentro de tu... Inclusive você mesmo.
+  id: FloorSewageWaterEntity
+  name: Água Residual
+  description: Vulgarmente denominadas de 'esgoto'
   placement:
     mode: SnapgridCenter
     snap:
