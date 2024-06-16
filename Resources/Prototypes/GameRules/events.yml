@@ -67,7 +67,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      collection: AnnouncerInternAlert
     weight: 8
     duration: 35
   - type: AnomalySpawnRule
@@ -83,7 +83,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      collection: AnnouncerInternAlert
     weight: 8
     duration: 35
   - type: BluespaceArtifactRule
