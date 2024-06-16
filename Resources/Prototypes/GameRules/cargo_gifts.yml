@@ -10,7 +10,7 @@
   - type: StationEvent
     startColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      collection: AnnouncerInternAlert
   - type: CargoGiftsRule
     sender: cargo-gift-default-sender
 

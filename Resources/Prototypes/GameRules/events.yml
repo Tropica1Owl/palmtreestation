@@ -7,7 +7,7 @@
     startAnnouncement: station-event-xeno-vent-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 45
+    earliestStart: 60
     minimumPlayers: 0
     weight: 1
     duration: 60
@@ -67,7 +67,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      collection: AnnouncerInternAlert
     weight: 8
     duration: 35
   - type: AnomalySpawnRule
@@ -83,7 +83,7 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      collection: AnnouncerInternAlert
     weight: 8
     duration: 35
   - type: BluespaceArtifactRule
@@ -150,7 +150,7 @@
     weight: 7.5
     duration: 1
     earliestStart: 45
-
+    minimumPlayers: 99
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -339,7 +339,7 @@
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 20
+    earliestStart: 30
 
     weight: 5
     duration: 60
@@ -356,7 +356,7 @@
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 20
+    earliestStart: 45
 
     weight: 1.5
     duration: 60
