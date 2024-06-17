@@ -18,10 +18,10 @@
 - type: hitscan
   id: Lazarus
   damage:
-    types:
-      Burn: 20
-      Brute: 15
-      Airloss: 400
+    groups:
+      Burn: -20
+      Brute: -15
+      Airloss: -400
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue
