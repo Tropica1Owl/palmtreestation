@@ -1,0 +1,18 @@
+- type: reagent
+  id: Formaldehyde #The famous rot preventing chemical y'know, yeah! Since SS14 doesn't know what a "rotting freeze" is here it just reverts it.
+  name: reagent-name-formaldehyde
+  group: Medicine
+  desc: reagent-desc-formaldehyde
+  physicalDesc: reagent-physical-desc-sickly
+  flavor: acid
+  color: "#301934"
+  worksOnTheDead: true
+  metabolisms:
+    Medicine:
+      effects:
+        - !type:ReduceRotting
+          seconds: 5
+          conditions:
+          #Patient must be dead.
+          - !type:MobStateCondition
+            mobstate: Dead

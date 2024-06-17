@@ -1,0 +1,12 @@
+- type: reaction
+  id: Formaldehyde
+  minTemp: 420 #Parity with TGstation
+  reactants:
+    Silver:
+      amount: 1
+    Ethanol:
+      amount: 1
+    Oxygen:
+      amount: 1
+  products:
+    Formaldehyde: 3

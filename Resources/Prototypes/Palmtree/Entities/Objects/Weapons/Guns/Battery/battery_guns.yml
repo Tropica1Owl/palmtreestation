@@ -1,0 +1,29 @@
+- type: entity
+  name: Lazarus' hand
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: HealRifle
+  description: Resuscitated.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+  - type: Gun
+    fireRate: 1.5
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: Lazarus
+    fireCost: 100
+  - type: Battery
+    maxCharge: 100
+    startingCharge: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 40
