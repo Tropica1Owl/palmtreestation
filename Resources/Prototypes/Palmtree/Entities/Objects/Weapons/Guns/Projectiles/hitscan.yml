@@ -1,0 +1,33 @@
+- type: hitscan
+  id: PlasmaCut
+  damage:
+    types:
+      Slash: 24
+      Heat: 6
+      Structural: 45
+  muzzleFlash:
+    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
+    state: muzzle_cutter
+  travelFlash:
+    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
+    state: beam_cutter
+  impactFlash:
+    sprite: Palmtree/Objects/Weapon/Guns/Projectiles/PlasmaCutter.rsi
+    state: impact_cutter
+
+- type: hitscan
+  id: Lazarus
+  damage:
+    groups:
+      Burn: -20
+      Brute: -15
+      Airloss: -400
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_blue
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam_blue
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_blue

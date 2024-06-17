@@ -18,6 +18,17 @@
 #       department: Engineering
 #       time: 216000 # 60 hrs
 
+#Palmtree addition start
+- type: loadout
+  id: WeaponPistolPlasmaCutter
+  equipment: WeaponPistolPlasmaCutter
+
+- type: startingGear
+  id: WeaponPistolPlasmaCutter
+  equipment:
+    back: WeaponPistolPlasmaCutter
+#Palmtree addition end
+
 # Head
 - type: loadout
   id: StationEngineerHardhatYellow
@@ -147,7 +158,7 @@
   id: StationEngineerOuterVest
   equipment:
     outerClothing: ClothingOuterVestHazard
-  
+
 - type: loadout
   id: StationEngineerWintercoat
   equipment: StationEngineerWintercoat
@@ -156,7 +167,7 @@
   id: StationEngineerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterEngi
-  
+
 # Shoes
 - type: loadout
   id: WorkBoots

@@ -1,0 +1,29 @@
+- type: entity
+  name: Lazarus' hand
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: LazarusMedHealRifle
+  description: Resuscitated.
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Weapons/Guns/Battery/lazarus.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Palmtree/Objects/Weapons/Guns/Battery/lazarus.rsi
+  - type: Gun
+    fireRate: 1.5
+    soundGunshot:
+      path: /Audio/Palmtree/Weapons/Guns/Gunshots/lazarus.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: Lazarus
+    fireCost: 100
+  - type: Battery
+    maxCharge: 120
+    startingCharge: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2

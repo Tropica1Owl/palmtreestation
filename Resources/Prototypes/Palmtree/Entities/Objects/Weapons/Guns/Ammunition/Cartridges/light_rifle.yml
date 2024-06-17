@@ -8,7 +8,7 @@
     tags:
       - CartridgeSWS
   - type: CartridgeAmmo
-    proto: CartridgeSWS
+    proto: SWSShot
     count: 1
   - type: Sprite
     sprite: Palmtree/Objects/Weapon/Guns/Ammunition/Cartridges/SWSPulseCartridge.rsi

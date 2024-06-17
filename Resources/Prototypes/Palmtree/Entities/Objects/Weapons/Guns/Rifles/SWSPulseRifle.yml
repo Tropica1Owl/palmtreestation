@@ -6,10 +6,12 @@
 
 - type: entity
   name: SWS Motorized Pulse Rifle
-  parent: BaseWeaponRifle
+  parent: BaseItem
   id: WeaponSWSRifle
   description: A standard-issue ballistic firearm which can be loaded with grenades or proximity mines for riot conditions, or personalized for faster reloading.
   components:
+  - type: Item
+    size: 50
   - type: Sprite
     sprite: Palmtree/Objects/Weapon/Guns/Rifles/SWS.rsi
     layers:
