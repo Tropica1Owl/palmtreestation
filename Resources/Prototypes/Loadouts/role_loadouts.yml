@@ -155,6 +155,7 @@
   - QuartermasterShoes
   - Glasses
   - Trinkets
+  - SalvageGear # Palmtree Station addition
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -175,6 +176,7 @@
   - SalvageSpecialistShoes
   - Glasses
   - Trinkets
+  - SalvageGear # Palmtree Station addition
 
 # Engineering
 - type: roleLoadout
