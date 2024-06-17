@@ -5,7 +5,7 @@
   description: Resuscitated.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: /Objects/Palmtree/Weapons/Guns/Battery/lazarus.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -13,11 +13,11 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: /Objects/Palmtree/Weapons/Guns/Battery/lazarus.rsi
   - type: Gun
     fireRate: 1.5
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+      path: /Audio/Palmtree/Weapons/Guns/Gunshots/lazarus.ogg
   - type: HitscanBatteryAmmoProvider
     proto: Lazarus
     fireCost: 100
