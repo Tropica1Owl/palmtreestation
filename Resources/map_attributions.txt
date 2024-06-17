@@ -66,3 +66,12 @@
   
 - files: ["knightship.yml"]
   authors: CRISOOOOO, kerisar21
+  
+#Palmtree Shuttles
+#These are located in Maps/Shuttles
+
+- files: ["cargo_falcon.yml"]
+  authors: josephvodka
+  
+- files: ["emergency_strain".yml"]
+  authors: Fuinha7
