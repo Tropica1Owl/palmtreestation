@@ -1,7 +1,7 @@
 - type: entity
   name: Lazarus' hand
   parent: [BaseWeaponBattery, BaseGunWieldable]
-  id: HealRifle
+  id: LazarusMedHealRifle
   description: Resuscitated.
   components:
   - type: Sprite
