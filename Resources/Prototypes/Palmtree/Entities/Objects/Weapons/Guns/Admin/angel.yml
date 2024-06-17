@@ -1,0 +1,78 @@
+# WEAPON
+
+- type: entity
+  name: benevolent force
+  suffix: Angelic
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: WeaponAdminAngelGun
+  description: It's going to ULTRAKILL you.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 1
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Palmtree/Weapons/Guns/Gunshots/angelfire.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: AngelFire
+    fireCost: 10
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 100
+    
+- type: entity
+  name: benevolent force structural
+  suffix: Angelic
+  parent: [WeaponAdminAngelGun]
+  id: WeaponAdminAngelGunStructural
+  description: Structure deleter!
+  components:
+  - type: HitscanBatteryAmmoProvider
+    proto: AngelFire
+    fireCost: 10
+  
+# PROJECTILES
+# DONT USE ANYWHERE ELSE, PLEASE!
+  
+- type: hitscan
+  id: AngelFire
+  damage:
+    types:
+      Cold: 200
+      Piercing: 300
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_blue
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam_blue
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_blue
+    
+- type: hitscan
+  id: AngelFireStructural
+  parent: [AngelFire]
+  damage:
+    types:
+      Structural: 200
+
+- type: hitscan
+  id: AngelFireLesser
+  parent: [AngelFire]
+  damage:
+    types:
+      Cold: 20
+      Piercing: 30
