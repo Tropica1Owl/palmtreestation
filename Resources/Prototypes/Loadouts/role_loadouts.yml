@@ -187,6 +187,7 @@
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
   - Trinkets
+  - EngiGear # Palmtree Station addition
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -205,6 +206,7 @@
   - StationEngineerShoes
   - StationEngineerID
   - Trinkets
+  - EngiGear # Palmtree Station addition
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -214,6 +216,7 @@
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - Trinkets
+  - EngiGear # Palmtree Station addition
 
 # Science
 - type: roleLoadout
@@ -312,7 +315,7 @@
   - SecurityGlassesOrHud # CD Addition
   - Trinkets
 
-# Medical
+# Medical´
 - type: roleLoadout
   id: JobChiefMedicalOfficer
   groups:

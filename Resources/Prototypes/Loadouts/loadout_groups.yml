@@ -7,7 +7,7 @@
   loadouts:
   - PlushieLizard
   - PlushieSpaceLizard
-  - WeaponDisabler
+  - WeaponDisabler # Palmtree Station addition
   - Lighter
   - CigPackGreen
   - CigPackRed
@@ -26,6 +26,17 @@
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
+
+#Palmtree Station addition start
+
+- type: loadoutGroup
+  id: EngiGear
+  name: loadout-group-gear
+  minLimit: 0
+  loadouts:
+  - WeaponPistolPlasmaCutter
+
+#Palmtree Station addition end
 
 - type: loadoutGroup
   id: Glasses
