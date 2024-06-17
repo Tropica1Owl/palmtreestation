@@ -2,7 +2,7 @@
   name: Lazarus' hand
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLazarusMedHealRifle
-  description: Resuscitated.
+  description: Ressurected, Revived, Healed.
   components:
   - type: Sprite
     sprite: Palmtree/Objects/Weapons/Guns/Battery/lazarus.rsi
@@ -27,3 +27,16 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 2
+
+- type: entity
+  name: Lazarus' hand
+  parent: [WeaponLazarusMedHealRifle]
+  id: WeaponAdminLazarusMedHealRifle
+  suffix: Admeme
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 100
+  - type: Battery
+    maxCharge: 300
+    startingCharge: 300
