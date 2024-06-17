@@ -9,7 +9,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Palmtree/Objects/Weapon/Guns/Projectiles/Impacts/PlasmaCutter.rsi
+      sprite: Palmtree/Objects/Weapon/Guns/Impacts/PlasmaCutter.rsi
       state: impact_eletric
   - type: EffectVisuals
   - type: Tag
@@ -17,7 +17,7 @@
       - HideContextMenu
       
 - type: entity
-  id: ImpactPulseShot
+  id: ImpactSWS
   noSpawn: true
   components:
   - type: TimedDespawn
@@ -27,7 +27,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Palmtree/Objects/Weapon/Guns/Projectiles/Impacts/SWSRifle.rsi
+      sprite: Palmtree/Objects/Weapon/Guns/Impacts/SWSRifle.rsi
       state: impact_pulse
   - type: EffectVisuals
   - type: Tag
