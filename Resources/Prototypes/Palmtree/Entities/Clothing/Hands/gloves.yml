@@ -8,6 +8,7 @@
     sprite: Clothing/Hands/Gloves/combat.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: StaminaDamageOnHit
     damage: 15
   - type: MeleeWeapon
     attackRate: 1.3

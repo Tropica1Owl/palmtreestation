@@ -41,7 +41,7 @@
   name: loadout-group-gear
   minLimit: 0
   loadouts:
-  - Krav
+  - ClothingHandsGlovesKrav
 
 #Palmtree Station addition end
 

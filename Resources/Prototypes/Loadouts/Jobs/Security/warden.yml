@@ -1,11 +1,11 @@
 # Palmtree addition
 
 - type: loadout
-  id: Krav
+  id: ClothingHandsGlovesKrav
   equipment: ClothingHandsGlovesKrav
 
 - type: startingGear
-  id: Krav
+  id: ClothingHandsGlovesKrav
   equipment:
     back: ClothingHandsGlovesKrav
 
