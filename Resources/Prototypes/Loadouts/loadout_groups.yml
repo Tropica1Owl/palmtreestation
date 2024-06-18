@@ -36,6 +36,13 @@
   loadouts:
   - WeaponPistolPlasmaCutter
 
+- type: loadoutGroup
+  id: WardenGear
+  name: loadout-group-gear
+  minLimit: 0
+  loadouts:
+  - Krav
+
 #Palmtree Station addition end
 
 - type: loadoutGroup
