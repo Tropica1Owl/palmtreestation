@@ -5,17 +5,17 @@
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
   components:
   components:
-    - type: Sprite
-      sprite: Palmtree/Objects/Specific/Medical/defib.rsi
-      layers:
-        - state: icon
-        - state: screen
-          map: [ "enum.ToggleVisuals.Layer" ]
-          visible: false
-          shader: unshaded
-        - state: ready
-          map: ["enum.PowerDeviceVisualLayers.Powered"]
-          shader: unshaded
+  - type: Sprite
+    sprite: Palmtree/Objects/Specific/Medical/defib.rsi
+    layers:
+      - state: icon
+      - state: screen
+        map: [ "enum.ToggleVisuals.Layer" ]
+        visible: false
+        shader: unshaded
+      - state: ready
+        map: ["enum.PowerDeviceVisualLayers.Powered"]
+        shader: unshaded
   - type: PowerCellDraw
     useRate: 200
   - type: Defibrillator
