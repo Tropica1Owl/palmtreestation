@@ -1,0 +1,85 @@
+# ---------------------------------------------------------------------------- #
+#                                  BASE TYPES                                  #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  parent: [BaseItem]
+  id: BaseClothingWing
+  name: Wings
+  description: It goes in your back and makes you fly or something.
+  components:
+  - type: Clothing
+    sprite: Palmtree/Clothing/Wings/Wings.rsi
+    state: ultrakill # Because it's the first we've added.
+  - type: Item
+    sprite: Palmtree/Clothing/Wings/Wings.rsi
+    state: ultrakill
+    size: 9999
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+
+- type: entity
+  parent: [BaseClothingWing]
+  id: BaseClothingWingBackpack
+  name: backpack wings
+  description: It goes in your back and makes you fly, with items.
+  components:
+  - type: Storage
+    capacity: 500
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: UseDelay
+    delay: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+# ---------------------------------------------------------------------------- #
+#                                    ACTIONS                                   #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  id: ActionToggleWings
+  name: Toggle wings
+  description: Open or closes your wings.
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Palmtree/Clothing/Wings/Wings.rsi
+      state: ultrakill
+    iconOn:
+      sprite: Palmtree/Clothing/Wings/Wings.rsi
+      state: ultrakill_open
+    useDelay: 0.5
+    event: !type:ToggleWingsEvent
+
+# ---------------------------------------------------------------------------- #
+#                                     WINGS                                    #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  parent: [BaseClothingWing]
+  id: ClothingWingUltrakill
+  name: robotic wings
+  description: These robotic wings allow you to dash quick enough to dodge most danger.
+  components:
+  - type: Clothing
+    state: ultrakill
+
+
+- type: entity
+  parent: [BaseClothingWingBackpack]
+  id: ClothingWingUltrakillBackpack
+  name: robotic wings
+  suffix: Backpack
+  description: These robotic wings allow you to dash quick enough to dodge most danger.
+  components:
+  - type: Clothing
+    state: ultrakill
