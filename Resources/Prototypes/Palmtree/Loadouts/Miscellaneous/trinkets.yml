@@ -1,0 +1,10 @@
+# Weaponry
+- type: loadout
+  id: WeaponDisabler
+  equipment: WeaponDisabler
+
+- type: startingGear
+  id: WeaponDisabler
+  storage:
+    back:
+    - WeaponDisabler
