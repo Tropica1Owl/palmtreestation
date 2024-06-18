@@ -1,0 +1,11 @@
+- type: entity
+  name: lua item
+  suffix: Lua
+  parent: [BaseItem]
+  id: BaseLuaItem
+  description: This is a big test.
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Food/plates.rsi
+    state: plate
+  - type: Lua
