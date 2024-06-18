@@ -22,8 +22,8 @@
     proto: Lazarus
     fireCost: 100
   - type: Battery
-    maxCharge: 120
-    startingCharge: 100
+    maxCharge: 220
+    startingCharge: 220
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 2

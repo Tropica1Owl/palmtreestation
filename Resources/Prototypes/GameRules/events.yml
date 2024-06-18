@@ -142,17 +142,18 @@
   - type: RandomEntityStorageSpawnRule
     prototype: MobSkeletonCloset
 
-- type: entity
-  parent: BaseGameRule
-  id: RevenantSpawn
-  components:
-  - type: StationEvent
-    weight: 7.5
-    duration: 1
-    earliestStart: 45
-    minimumPlayers: 99
-  - type: RandomSpawnRule
-    prototype: MobRevenant
+# disabled because SS14 atmos is unforgiving and the crew has to deal with enough bullshit.
+#- type: entity
+#  parent: BaseGameRule
+#  id: RevenantSpawn
+#  components:
+#  - type: StationEvent
+#    weight: 7.5
+#    duration: 1
+#    earliestStart: 45
+#    minimumPlayers: 99
+#  - type: RandomSpawnRule
+#    prototype: MobRevenant
 
 # disabled until event is rewritten to be more interesting
 #- type: entity
@@ -318,7 +319,7 @@
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 20
+    earliestStart: 30
 
     weight: 5
     duration: 60
@@ -398,22 +399,22 @@
       - type: InitialInfectedRole
         prototype: InitialInfected
 
-
-- type: entity
-  id: MassHallucinations
-  parent: BaseGameRule
-  components:
-  - type: StationEvent
-    weight: 7
-    duration: 150
-    maxDuration: 300
-    reoccurrenceDelay: 30
-  - type: MassHallucinationsRule
-    minTimeBetweenIncidents: 0.1
-    maxTimeBetweenIncidents: 300
-    maxSoundDistance: 7
-    sounds:
-      collection: Paracusia
+# I don't even know why this is an event
+#- type: entity
+#  id: MassHallucinations
+#  parent: BaseGameRule
+#  components:
+#  - type: StationEvent
+#    weight: 7
+#    duration: 150
+#    maxDuration: 300
+#    reoccurrenceDelay: 30
+#  - type: MassHallucinationsRule
+#    minTimeBetweenIncidents: 0.1
+#    maxTimeBetweenIncidents: 300
+#    maxSoundDistance: 7
+#    sounds:
+#      collection: Paracusia
 
 - type: entity
   id: ImmovableRodSpawn
