@@ -4,7 +4,6 @@
   description: I will prevent disease whenever I can, for prevention is preferable to cure.
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
   components:
-  components:
   - type: Sprite
     sprite: Palmtree/Objects/Specific/Medical/defib.rsi
     layers:

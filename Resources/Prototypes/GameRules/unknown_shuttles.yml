@@ -34,12 +34,12 @@
   - type: LoadMapRule
     preloadedGrid: DisasterEvacPod
 
- - type: entity
-   parent: BaseUnknownShuttleRule
-   id: UnknownShuttleHonki
-   components:
-   - type: StationEvent
-     weight: 2
-   - type: LoadMapRule
-     preloadedGrid: Honki
+# - type: entity
+#   parent: BaseUnknownShuttleRule
+#   id: UnknownShuttleHonki
+#   components:
+#   - type: StationEvent
+#     weight: 2
+#   - type: LoadMapRule
+#     preloadedGrid: Honki
 
