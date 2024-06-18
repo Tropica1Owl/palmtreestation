@@ -49,3 +49,45 @@
 - type: lobbyBackground
   id: FurryThief
   background: /Textures/Palmtree/Lobby/thief.png
+
+- type: lobbyBackground
+  id: FurryWaldo
+  background: /Textures/Palmtree/Lobby/waldo.png
+
+- type: lobbyBackground
+  id: FurryBlackAndWhite
+  background: /Textures/Palmtree/Lobby/bubberstation.png
+
+- type: lobbyBackground
+  id: FurryRussianDiedOfDeath
+  background: /Textures/Palmtree/Lobby/diedofdeath.png
+
+- type: lobbyBackground
+  id: FurrySyndicate
+  background: /Textures/Palmtree/Lobby/syndf.png
+
+- type: lobbyBackground
+  id: FurryJacob
+  background: /Textures/Palmtree/Lobby/jacob.png
+
+- type: lobbyBackground
+  id: FurryCargo
+  background: /Textures/Palmtree/Lobby/cargof.png
+
+- type: lobbyBackground
+  id: FurryMiner
+  background: /Textures/Palmtree/Lobby/minerf.png
+
+- type: lobbyBackground
+  id: FurryishCrewp
+  background: /Textures/Palmtree/Lobby/crew.png
+
+- type: lobbyBackground
+  id: ShitpostOps
+  background: /Textures/Palmtree/Lobby/ops.png
+
+- type: lobbyBackground
+  id: LobbySyndicateWallpaper
+  background: /Textures/Palmtree/Lobby/syndicate.png
+
+
