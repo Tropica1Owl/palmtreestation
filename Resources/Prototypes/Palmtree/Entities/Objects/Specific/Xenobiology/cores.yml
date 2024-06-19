@@ -1,0 +1,4 @@
+- type: entity
+  parent: BaseXenoArtifactItem
+  name: slime core
+  description: The highly reactive remains of a slime, some say these hold mysterious magical powers.
