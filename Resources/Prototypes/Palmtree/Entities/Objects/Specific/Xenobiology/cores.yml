@@ -36,9 +36,9 @@
     catalyst: Plasma
     catalystMinimum: 20
     possibleSpawns:
-    - MobAdultSlimesBlue
-    - MobAdultSlimesGreen
-    - MobAdultSlimesYellow
+    - MobAdultSlimesBlueXenobio
+    - MobAdultSlimesGreenXenobio
+    - MobAdultSlimesYellowXenobio
   - type: Artifact
     nodesMin: 1
     nodesMax: 1
