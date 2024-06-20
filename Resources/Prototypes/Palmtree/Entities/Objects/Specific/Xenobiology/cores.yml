@@ -40,5 +40,5 @@
     - MobAdultSlimesGreenXenobio
     - MobAdultSlimesYellowXenobio
   - type: Artifact
-    nodesMin: 1
-    nodesMax: 1
+    nodesMin: 3 # Cores always have 3 nodes so that players can reach the interesting effects
+    nodesMax: 3

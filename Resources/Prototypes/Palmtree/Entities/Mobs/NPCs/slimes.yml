@@ -6,6 +6,9 @@
   suffix: Xenobio
   description: It looks so much like jelly. I wonder what it tastes like?
   components:
+    - type: MultiHandedItem
+    - type: Item
+      size: 120
     - type: Hunger
       currentHunger: 50 # Stop slimes from spawning and immediately popping another one
       thresholds: # Here we go
