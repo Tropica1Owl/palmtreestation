@@ -6,7 +6,7 @@
       amount: 1
     Ethanol:
       amount: 1
-    Oxygen:
-      amount: 1
+#    Oxygen: Would turn into vinegar
+#      amount: 1
   products:
-    Formaldehyde: 3
+    Formaldehyde: 2

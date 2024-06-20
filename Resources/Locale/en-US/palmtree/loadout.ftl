@@ -1,0 +1,1 @@
+loadout-group-gear = Gear

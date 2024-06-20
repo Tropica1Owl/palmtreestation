@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesKrav
+  name: krav maga gloves
+  description: You better not get out of your spot, warden.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: StaminaDamageOnHit
+    damage: 15
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Blunt: 0.4
+    animation: WeaponArcFist
+    mustBeEquippedToUse: true
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: FingerprintMask

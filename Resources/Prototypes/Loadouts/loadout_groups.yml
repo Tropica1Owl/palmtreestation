@@ -27,17 +27,6 @@
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
 
-#Palmtree Station addition start
-
-- type: loadoutGroup
-  id: EngiGear
-  name: loadout-group-gear
-  minLimit: 0
-  loadouts:
-  - WeaponPistolPlasmaCutter
-
-#Palmtree Station addition end
-
 - type: loadoutGroup
   id: Glasses
   name: loadout-group-glasses

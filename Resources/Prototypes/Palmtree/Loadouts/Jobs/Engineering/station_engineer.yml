@@ -1,0 +1,8 @@
+- type: loadout
+  id: PlasmaCutter
+  equipment: PlasmaCutter # This probably refers to startingGear's ID'
+
+- type: startingGear
+  id: PlasmaCutter
+  equipment:
+    back: WeaponPistolPlasmaCutter
