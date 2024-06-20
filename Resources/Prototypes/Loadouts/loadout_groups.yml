@@ -35,15 +35,6 @@
   minLimit: 0
   loadouts:
   - WeaponPistolPlasmaCutter
-  - MagazinePlasmaCutter
-
-- type: loadoutGroup
-  id: SalvageGear
-  name: loadout-group-gear
-  minLimit: 0
-  loadouts:
-  - WeaponPistolPlasmaCutter
-  - MagazinePlasmaCutter
 
 #Palmtree Station addition end
 
