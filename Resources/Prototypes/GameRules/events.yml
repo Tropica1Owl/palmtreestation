@@ -366,22 +366,23 @@
     - id: MobGiantSpiderAngry
       prob: 0.05
 
-- type: entity
-  id: SpiderClownSpawn
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      collection: AnnouncerInternAlert
-    earliestStart: 35
-
-    weight: 1.5
-    duration: 60
-  - type: VentCrittersRule
-    entries:
-    - id: MobClownSpider
-      prob: 0.05
+# Palmtree change - Don't.
+#- type: entity
+#  id: SpiderClownSpawn
+#  parent: BaseStationEventShortDelay
+#  components:
+#  - type: StationEvent
+#    startAnnouncement: station-event-vent-creatures-start-announcement
+#    startAudio:
+#      collection: AnnouncerInternAlert
+#    earliestStart: 35
+#
+#    weight: 1.5
+#    duration: 60
+#  - type: VentCrittersRule
+#    entries:
+#    - id: MobClownSpider
+#      prob: 0.05
 
 - type: entity
   id: ZombieOutbreak

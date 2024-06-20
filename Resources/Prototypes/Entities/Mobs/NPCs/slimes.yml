@@ -43,6 +43,8 @@
     spawned:
     - id: FoodMeatSlime
       amount: 2
+    - id: SlimeCoreItem #Palmtree change - xenobio (make this tied to slime type later)
+      amount: 2 #Palmtree change - xenobio (I know this can also be used for reproduction but it's impractical)
   - type: Respirator
     damage:
       types:
