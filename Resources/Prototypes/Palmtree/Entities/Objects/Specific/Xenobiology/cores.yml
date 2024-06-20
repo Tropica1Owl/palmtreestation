@@ -1,4 +1,44 @@
 - type: entity
   parent: BaseXenoArtifactItem
-  name: slime core
+  id: SlimeCoreItem
+  name: slime extract
   description: The highly reactive remains of a slime, some say these hold mysterious magical powers.
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Specific/Xenobiology/cores.rsi
+    layers:
+    - state: ano01
+      map: [ "enum.ArtifactsVisualLayers.Base" ]
+    - state: ano01_on
+      map: [ "enum.ArtifactsVisualLayers.Effect" ]
+      visible: false
+  - type: RandomArtifactSprite
+    maxSprite: 1
+    activationTime: 2.4
+  - type: Item
+    sprite: Palmtree/Objects/Specific/Xenobiology/cores.rsi
+    heldPrefix:
+    size: 10
+  - type: SolutionContainerManager
+    solutions:
+      cube:
+        maxVol: 20 # for holding da plasma
+  - type: RefillableSolution
+    solution: cube
+  - type: Reactive
+    reactions:
+    - reagents: [Plasma]
+      methods: [Injection]
+      effects:
+      - !type:AddToSolutionReaction
+        solution: cube
+  - type: Rehydratable
+    catalyst: Plasma
+    catalystMinimum: 20
+    possibleSpawns:
+    - MobAdultSlimesBlue
+    - MobAdultSlimesGreen
+    - MobAdultSlimesYellow
+  - type: Artifact
+    nodesMin: 1
+    nodesMax: 1

@@ -11,17 +11,7 @@
       "name": "ano01"
     },
     {
-      "name": "ano01_on",
-      "delays": [
-        [
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15
-        ]
-      ]
+      "name": "ano01_on"
     },
     {
       "name": "ano01-inhand-left",
