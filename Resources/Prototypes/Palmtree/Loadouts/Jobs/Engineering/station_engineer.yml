@@ -1,0 +1,19 @@
+- type: loadout
+  id: PlasmaCutter
+  equipment: PlasmaCutter # This probably refers to startingGear's ID'
+
+- type: startingGear
+  id: PlasmaCutter
+  storage: # in case you want to put it inside your backpack
+    back:
+    - WeaponPistolPlasmaCutter # always use the item ID here
+
+- type: loadout
+  id: MagazinePlasmaCutter
+  equipment: MagazinePlasmaCutter
+
+- type: startingGear
+  id: MagazinePlasmaCutter
+  storage:
+    back:
+    - MagazinePlasmaCutter

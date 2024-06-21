@@ -5,11 +5,12 @@
   components:
   - type: ArtifactInteractionTrigger
 
-- type: artifactTrigger
-  id: TriggerTimer
-  targetDepth: 0
-  components:
-  - type: ArtifactTimerTrigger
+# Palmtree change - Timer triger makes it very easy for low-complexity artifacts such as the extracts to go out of control.
+#- type: artifactTrigger
+#  id: TriggerTimer
+#  targetDepth: 0
+#  components:
+#  - type: ArtifactTimerTrigger
 
 - type: artifactTrigger
   id: TriggerExamine

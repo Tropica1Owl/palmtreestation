@@ -4,11 +4,12 @@
   noSpawn: true
   components:
   - type: StationEvent
+    maxOccurrences: 3
     startAnnouncement: station-event-xeno-vent-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 60
-    minimumPlayers: 0
+    earliestStart: 45
+    minimumPlayers: 8
     weight: 1
     duration: 60
   - type: VentCrittersRule
@@ -29,6 +30,23 @@
       prob: 0.006
     - id: MobXenoQueen
       prob: 0.007
+
+- type: entity
+  id: FISHEVENT
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAudio:
+      collection: AnnouncerInternAlert
+    earliestStart: 20
+    minimumPlayers: 0
+    weight: 5
+    duration: 60
+  - type: VentCrittersRule
+    entries:
+    - id: MobCarp
+      prob: 0.05
 
 - type: entity
   id: BaseStationEvent
@@ -106,7 +124,7 @@
   - type: StationEvent
     weight: 7
     duration: 1
-    minimumPlayers: 99
+    minimumPlayers: 6
   - type: BreakerFlipRule
 
 - type: entity
@@ -193,9 +211,9 @@
   parent: BaseStationEventLongDelay
   components:
   - type: StationEvent
+    minimumPlayers: 8
     earliestStart: 30
     weight: 7.5
-    minimumPlayers: 1 #Enough to hopefully have at least one engineering guy
     startAnnouncement: station-event-meteor-swarm-start-announcement
     endAnnouncement: station-event-meteor-swarm-end-announcement
     startAudio:
@@ -316,21 +334,22 @@
   parent: BaseStationEventShortDelay
   components:
   - type: StationEvent
+    maxOccurrences: 3
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 30
-
+    earliestStart: 25
+    minimumPlayers: 0
     weight: 5
     duration: 60
   - type: VentCrittersRule
     entries:
     - id: MobAdultSlimesBlueAngry
-      prob: 0.02
+      prob: 0.01
     - id: MobAdultSlimesGreenAngry
-      prob: 0.02
+      prob: 0.01
     - id: MobAdultSlimesYellowAngry
-      prob: 0.02
+      prob: 0.01
 
 - type: entity
   id: SpiderSpawn
@@ -340,8 +359,8 @@
     startAnnouncement: station-event-vent-creatures-start-announcement
     startAudio:
       collection: AnnouncerInternAlert
-    earliestStart: 30
-
+    earliestStart: 25
+    minimumPlayers: 6
     weight: 5
     duration: 60
   - type: VentCrittersRule
@@ -349,22 +368,23 @@
     - id: MobGiantSpiderAngry
       prob: 0.05
 
-- type: entity
-  id: SpiderClownSpawn
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      collection: AnnouncerInternAlert
-    earliestStart: 45
-
-    weight: 1.5
-    duration: 60
-  - type: VentCrittersRule
-    entries:
-    - id: MobClownSpider
-      prob: 0.05
+# Palmtree change - Don't.
+#- type: entity
+#  id: SpiderClownSpawn
+#  parent: BaseStationEventShortDelay
+#  components:
+#  - type: StationEvent
+#    startAnnouncement: station-event-vent-creatures-start-announcement
+#    startAudio:
+#      collection: AnnouncerInternAlert
+#    earliestStart: 35
+#
+#    weight: 1.5
+#    duration: 60
+#  - type: VentCrittersRule
+#    entries:
+#    - id: MobClownSpider
+#      prob: 0.05
 
 - type: entity
   id: ZombieOutbreak
@@ -372,7 +392,7 @@
   components:
   - type: StationEvent
     earliestStart: 50
-    minimumPlayers: 30
+    minimumPlayers: 99
     weight: 2
     duration: 1
   - type: ZombieRule
@@ -474,6 +494,6 @@
     - type: StationEvent
       earliestStart: 0
 
-      maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
+      #maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it (I commented this because I want to see what happens.)
       weight: 5
     - type: MobReplacementRule

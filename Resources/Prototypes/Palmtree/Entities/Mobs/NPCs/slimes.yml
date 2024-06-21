@@ -1,0 +1,88 @@
+- type: entity #exists only so I can deal with hunger and such universally
+  name: basic slime
+  id: MobAdultSlimesXenobio
+  parent: MobAdultSlimes
+  abstract: true
+  suffix: Xenobio
+  description: It looks so much like jelly. I wonder what it tastes like?
+  components:
+    - type: MultiHandedItem
+    - type: Item
+      size: 120
+    - type: Hunger
+      currentHunger: 50 # Stop slimes from spawning and immediately popping another one
+      thresholds: # Here we go
+        Overfed: 100
+        Okay: 50
+        Peckish: 25
+        Starving: 10
+        Dead: 0
+      baseDecayRate: 0 # They will only consume hunger when replicating
+
+- type: entity
+  name: blue slime
+  id: MobAdultSlimesBlueXenobio
+  parent: MobAdultSlimesXenobio
+  components:
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: blue_adult_slime
+      Dead:
+        Base: blue_adult_slime_dead
+  - type: EggLayer
+    eggSpawn:
+    - id: MobAdultSlimesGreenXenobio
+
+
+- type: entity
+  name: green slime
+  parent: MobAdultSlimesXenobio
+  id: MobAdultSlimesGreenXenobio
+  components:
+    - type: Sprite
+      layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: green_adult_slime
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: green_adult_slime
+        Dead:
+          Base: green_adult_slime_dead
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 6
+          Structural: 4
+          Caustic: 1
+          Poison: 4
+    - type: EggLayer
+      eggSpawn:
+      - id: MobAdultSlimesYellowXenobio
+
+- type: entity
+  name: yellow slime
+  parent: MobAdultSlimesXenobio
+  id: MobAdultSlimesYellowXenobio
+  components:
+    - type: Sprite
+      layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: yellow_adult_slime
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: yellow_adult_slime
+        Dead:
+          Base: yellow_adult_slime_dead
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 6
+          Structural: 4
+          Caustic: 1
+          Cellular: 3
+    - type: EggLayer
+      eggSpawn:
+      - id: MobAdultSlimesBlueXenobio

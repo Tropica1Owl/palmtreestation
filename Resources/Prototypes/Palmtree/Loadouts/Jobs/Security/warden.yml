@@ -1,0 +1,9 @@
+- type: loadout
+  id: Krav
+  equipment: Krav
+
+- type: startingGear
+  id: Krav
+  storage:
+    back:
+    - ClothingHandsGlovesKrav

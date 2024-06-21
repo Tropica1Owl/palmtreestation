@@ -1,0 +1,24 @@
+- type: loadoutGroup
+  id: EngiGear
+  name: loadout-group-gear
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - PlasmaCutter
+  - MagazinePlasmaCutter
+
+- type: loadoutGroup
+  id: WardenGear
+  name: loadout-group-gear
+  minLimit: 0
+  loadouts:
+  - Krav
+
+- type: loadoutGroup
+  id: SalvageGear
+  name: loadout-group-gear
+  minLimit: 0
+  maxLimit: 2
+  loadouts:
+  - PlasmaCutter
+  - MagazinePlasmaCutter

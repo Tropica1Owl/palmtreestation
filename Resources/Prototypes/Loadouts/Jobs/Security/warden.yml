@@ -1,16 +1,3 @@
-# Palmtree addition
-
-- type: loadout
-  id: ClothingHandsGlovesKrav
-  equipment: ClothingHandsGlovesKrav
-
-- type: startingGear
-  id: ClothingHandsGlovesKrav
-  equipment:
-    back: ClothingHandsGlovesKrav
-
-# Palmtree addition end
-
 # Head
 - type: loadout
   id: WardenHead

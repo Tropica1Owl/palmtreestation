@@ -5,20 +5,19 @@
 - type: entity
   parent: [BaseItem]
   id: BaseClothingWing
-  name: Wings
+  name: wings
   description: It goes in your back and makes you fly or something.
   components:
   - type: Clothing
     sprite: Palmtree/Clothing/Wings/Wings.rsi
     state: ultrakill # Because it's the first we've added.
+    quickEquip: false
+    slots:
+    - back
   - type: Item
     sprite: Palmtree/Clothing/Wings/Wings.rsi
     state: ultrakill
     size: 9999
-  - type: Clothing
-    quickEquip: false
-    slots:
-    - back
 
 - type: entity
   parent: [BaseClothingWing]
