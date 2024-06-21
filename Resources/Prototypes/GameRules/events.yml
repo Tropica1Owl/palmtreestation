@@ -214,7 +214,6 @@
     minimumPlayers: 8
     earliestStart: 30
     weight: 7.5
-    minimumPlayers: 1 #Enough to hopefully have at least one engineering guy
     startAnnouncement: station-event-meteor-swarm-start-announcement
     endAnnouncement: station-event-meteor-swarm-end-announcement
     startAudio:
