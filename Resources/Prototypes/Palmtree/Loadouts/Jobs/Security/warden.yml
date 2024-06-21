@@ -4,5 +4,6 @@
 
 - type: startingGear
   id: Krav
-  equipment:
-    back: ClothingHandsGlovesKrav
+  storage:
+    back:
+    - ClothingHandsGlovesKrav

@@ -1,7 +1,7 @@
 - type: entity
   id: MagazinePlasmaCutter
   name: Plasma Energy Battery
-  parent: BasePowerCell
+  parent: BasePowerCellPlasma
   description: Small energy cells, which holds gasses that can create plasma.
   components:
   - type: Sprite
@@ -19,6 +19,3 @@
   - type: Battery
     maxCharge: 1106
     startingCharge: 1106
-  - type: HitscanBatteryAmmoProvider
-    proto: PlasmaCut
-    fireCost: 69
