@@ -1,0 +1,122 @@
+# ---------------------------------------------------------------------------- #
+#                               Base Projectiles                               #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  name: blaster shot
+  description: Blaster laser
+  id: BaseBlasterProjectile
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: green
+  - type: Projectile
+    deleteOnCollide: false
+    impactEffect: BulletImpactEffectBlasterGreen
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+    damage:
+      types:
+        Burn: 10
+  - type: TimedDespawn
+    lifetime: 40
+
+# ---------------------------------------------------------------------------- #
+#                                Impact Effects                                #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  id: BulletImpactEffectBlasterGreen
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 0.2
+  - type: Sprite
+    drawdepth: Effects
+    layers:
+    - shader: unshaded
+      map: ["enum.EffectLayers.Unshaded"]
+      sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+      state: impact_laser_greyscale
+      color: green
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  id: BulletImpactEffectBlasterRed
+  noSpawn: true
+  components:
+  - type: TimedDespawn
+    lifetime: 0.2
+  - type: Sprite
+    drawdepth: Effects
+    layers:
+    - shader: unshaded
+      map: ["enum.EffectLayers.Unshaded"]
+      sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+      state: impact_laser_greyscale
+      color: red
+  - type: EffectVisuals
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+# ---------------------------------------------------------------------------- #
+#                              Generic Projectiles                             #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  name: blaster shot red
+  description: Blaster laser
+  id: BlasterProjectileRed
+  parent: BaseBlasterProjectile
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: red
+  - type: Projectile
+    deleteOnCollide: false
+    impactEffect: BulletImpactEffectBlasterRed
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+    damage:
+      types:
+        Burn: 10
+
+- type: entity
+  name: blaster shot green
+  description: Blaster laser
+  id: BlasterProjectileGreen
+  parent: BaseBlasterProjectile
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: green
+  - type: Projectile
+    deleteOnCollide: false
+    impactEffect: BulletImpactEffectBlasterGreen
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+    damage:
+      types:
+        Burn: 10
+
+
+# ---------------------------------------------------------------------------- #
+#                                  Projectiles                                 #
+# ---------------------------------------------------------------------------- #

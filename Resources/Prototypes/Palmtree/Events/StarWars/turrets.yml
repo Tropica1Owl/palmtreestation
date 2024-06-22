@@ -1,0 +1,166 @@
+# ---------------------------------------------------------------------------- #
+#                                  Base Types                                  #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponBlasterTurret
+  name: blaster turret
+  suffix: StarWars
+  abstract: true
+  components:
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    # ----------------------------- Battery and ammo ----------------------------- #
+    - type: Battery
+      maxCharge: 10000
+      startingCharge: 10000
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 40
+    - type: ProjectileBatteryAmmoProvider
+      proto: BlasterProjectileRed
+      fireCost: 200
+    # ------------------------------------- - ------------------------------------ #
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Turrets/turrets.rsi
+      drawdepth: Mobs
+      layers:
+        - state: syndie_lethal
+    - type: InteractionPopup
+      interactDelay: 0.2
+      successChance: 0.8
+      interactSuccessString: petting-success-generic
+      interactFailureString: petting-failure-generic
+      interactSuccessSound:
+        path: /Audio/Effects/double_beep.ogg
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 600
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 300
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      fireRate: 3
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot:
+        collection: StarWarsBlasterFire
+    - type: HTN
+      rootTask:
+        task: TurretCompound
+      blackboard:
+        RotateSpeed: !type:Single
+          3.141
+        SoundTargetInLOS: !type:SoundPathSpecifier
+          path: /Audio/Effects/double_beep.ogg
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+
+# ------------------------------- Imperial Base ------------------------------ #
+
+- type: entity
+  name: Imperial Turret
+  parent: BaseWeaponBlasterTurret
+  abstract: true
+  id: BaseWeaponTurretImperial
+  components:
+    - type: NpcFactionMember
+      factions:
+        - GalacticEmpire
+    - type: Gun
+      fireRate: 2
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot:
+        collection: StarWarsR1TurretFire
+    - type: ProjectileBatteryAmmoProvider
+      proto: BlasterProjectileGreen
+      fireCost: 5
+
+# ------------------------------ Resistance Base ----------------------------- #
+
+- type: entity
+  name: Resistance Turret
+  parent: BaseWeaponBlasterTurret
+  abstract: true
+  id: BaseWeaponTurretResistance
+  components:
+    - type: NpcFactionMember
+      factions:
+        - Resistance
+    - type: Gun
+      fireRate: 2
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot:
+        collection: StarWarsPoraxFire
+    - type: ProjectileBatteryAmmoProvider
+      proto: BlasterProjectileRed
+      fireCost: 5
+
+# ---------------------------------------------------------------------------- #
+#                               Imperial Turrets                               #
+# ---------------------------------------------------------------------------- #
+
+
+- type: entity
+  name: R1 Imperial Laser Turret
+  parent: BaseWeaponTurretImperial
+  id: WeaponTurretImperialR1
+  components:
+    - type: Gun
+      fireRate: 4
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot:
+        collection: StarWarsR1TurretFire
+
+
+
+# ---------------------------------------------------------------------------- #
+#                              Resistance Turrets                              #
+# ---------------------------------------------------------------------------- #

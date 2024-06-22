@@ -1,0 +1,24 @@
+- type: npcFaction
+  id: GalacticEmpire
+  hostile:
+  - SimpleHostile
+  - Syndicate
+  - Xeno
+  - Zombie
+  - Revolutionary
+  - NanoTrasen
+  - PetsNT
+  - Resistance
+  - Dragon
+
+- type: npcFaction
+  id: Resistance
+  hostile:
+  - NanoTrasen
+  - SimpleHostile
+  - Xeno
+  - PetsNT
+  - Zombie
+  - Syndicate
+  - GalacticEmpire
+  - Dragon

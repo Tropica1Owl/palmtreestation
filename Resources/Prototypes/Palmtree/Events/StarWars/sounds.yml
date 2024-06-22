@@ -1,0 +1,200 @@
+
+# ---------------------------------------------------------------------------- #
+#                                 Firing Sounds                                #
+# ---------------------------------------------------------------------------- #
+
+- type: soundCollection
+  id: StarWarsAATFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aat01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aat02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aat03.ogg
+
+- type: soundCollection
+  id: StarWarsAquaDroidFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aquadroid01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aquadroid02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aquadroid03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aquadroid04.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/aquadroid05.ogg
+
+- type: soundCollection
+  id: StarWarsATRTFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atrt01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atrt02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atrt03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atrt04.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atrt05.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atrt06.ogg
+
+- type: soundCollection
+  id: StarWarsATTEFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atte01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atte02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atte03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atte04.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atte05.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/atte06.ogg
+
+- type: soundCollection
+  id: StarWarsBlasterFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster04.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster05.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster06.ogg
+
+- type: soundCollection
+  id: StarWarsDroidBlasterFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blasterdroid01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blasterdroid02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blasterdroid03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blasterdroid04.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blasterdroid05.ogg
+
+- type: soundCollection
+  id: StarWarsDefenderFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/defender01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/defender02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/defender03.ogg
+
+- type: soundCollection
+  id: StarWarsEE3Fire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/EE3_01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/EE3_02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/EE3_03.ogg
+
+- type: soundCollection
+  id: StarWarsR3TurretFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3turret01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3turret02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3turret03.ogg
+
+- type: soundCollection
+  id: StarWarsHeavyTurretFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/heavyturret01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/heavyturret02.ogg
+
+- type: soundCollection
+  id: StarWarsKulteskaFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/kulteska01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/kulteska02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/kulteska03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/kulteska04.ogg
+
+
+- type: soundCollection
+  id: StarWarsNightsisterBowFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/nightsisterbow01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/nightsisterbow02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/nightsisterbow03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/nightsisterbow04.ogg
+
+- type: soundCollection
+  id: StarWarsOctuptarraFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/octuptarra01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/octuptarra02.ogg
+
+- type: soundCollection
+  id: StarWarsPoraxFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/porax01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/porax02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/porax03.ogg
+
+
+- type: soundCollection
+  id: StarWarsR1AAFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R1AA01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R1AA02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R1AA03.ogg
+
+- type: soundCollection
+  id: StarWarsR3AAFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3AA01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3AA02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3AA03.ogg
+
+- type: soundCollection
+  id: StarWarsR3TurretFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3turret01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3turret02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R3turret03.ogg
+
+
+- type: soundCollection
+  id: StarWarsR1TurretFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R1turret01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R1turret02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R1turret03.ogg
+
+- type: soundCollection
+  id: StarWarsR5AAFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R5AA01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R5AA02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R5AA03.ogg
+
+- type: soundCollection
+  id: StarWarsR5TurretFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R5turret01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R5turret02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/R5turret03.ogg
+
+- type: soundCollection
+  id: StarWarsRebelBlasterFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/rebel01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/rebel02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/rebel03.ogg
+
+
+- type: soundCollection
+  id: StarWarsSniperDroidFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/sniperdroid01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/sniperdroid02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/sniperdroid03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/sniperdroid04.ogg
+
+
+- type: soundCollection
+  id: StarWarsTIEFigtherFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/tie01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/tie02.ogg
+
+- type: soundCollection
+  id: StarWarsYWingFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/ywing01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/ywing02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/ywing03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/ywing04.ogg
+
+- type: soundCollection
+  id: StarWarsQuarranRifleFire
+  files:
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/quarranRifle01.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/quarranRifle02.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/quarranRifle03.ogg
+    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/quarranRifle04.ogg
+
