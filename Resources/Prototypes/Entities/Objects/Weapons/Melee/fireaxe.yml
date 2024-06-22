@@ -39,6 +39,7 @@
   - type: Tool
     qualities:
       - Prying
+  - type: ToolForcePowered # Palmtree station change - parity with paradise
   - type: ToolTileCompatible
   - type: Prying
   - type: UseDelay

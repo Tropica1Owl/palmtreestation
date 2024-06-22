@@ -1,5 +1,5 @@
 - type: hitscan
-  id: PlasmaCut
+  id: PlasmaBeam
   damage:
     types:
       Slash: 24
