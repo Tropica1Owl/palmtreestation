@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-OUTERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "equipped-blue",
+      "directions": 4
+    },
+    {
+      "name": "equipped-red",
+      "directions": 4
+    },
+    {
+      "name": "equipped-yellow",
+      "directions": 4
+    },
+    {
+      "name": "equpped-green",
+      "directions": 4
+    },
+    {
+      "name": "icon-blue"
+    },
+    {
+      "name": "icon-red"
+    },
+    {
+      "name": "icon-yellow"
+    },
+    {
+      "name": "icon-green"
+    },
+    {
+      "name": "501st",
+      "directions": 4
+    },
+    {
+      "name": "212th",
+      "directions": 4
+    },
+    {
+      "name": "442nd",
+      "directions": 4
+    },
+    {
+      "name": "sec",
+      "directions": 4
+    },
+    {
+      "name": "icon-501st"
+    },
+    {
+      "name": "icon-212th"
+    },
+    {
+      "name": "icon-442nd"
+    },
+    {
+      "name": "iconsec"
+    }
+  ]
+}

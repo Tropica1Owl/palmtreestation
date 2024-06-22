@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pauldron",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-yellow",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-blue",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-red",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-green",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-double",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-yellow-double",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-blue-double",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-red-double",
+      "directions": 4
+    },
+    {
+      "name": "pauldron-green-double",
+      "directions": 4
+    },
+    {
+      "name": "icon"
+    }
+  ]
+}
