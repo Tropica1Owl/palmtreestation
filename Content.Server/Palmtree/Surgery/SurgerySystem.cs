@@ -2,6 +2,7 @@ using Content.Server.Palmtree.Surgery;
 using Content.Server.Popups;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
+using Content.Shared.Damage;
 
 // It's all very crude at the moment, made just for tests n' stuff, it has no real functionality at the moment.
 // I know the code is bad but I'm focusing atm to get myself acquainted with the engine, which has been going pretty well.
@@ -11,6 +12,7 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
     public class PSurgerySystem : EntitySystem
     {
         [Dependency] private readonly PopupSystem _popupSystem = default!;
+        [Dependency] private readonly DamageableSystem _damageableSystem = default!;
         public override void Initialize()
         {
             base.Initialize();
@@ -49,6 +51,11 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                 case "hemostat":
                     if (patient.clamped)
                     {
+                        if (TryComp(uid, out PTendWoundsComponent? tendwounds)) // The moment we add more surgeries it's gonna bug the hell outta this, hopefully I'll have the code changed by then.
+                        {
+                            _popupSystem.PopupEntity("You tend some of the patient's wounds!", args.User, args.User, PopupType.Small);
+                            _damageableSystem.TryChangeDamage(args.Target, tendwounds.healThisMuch, true, origin: uid);
+                        }
                         _popupSystem.PopupEntity("Patient's bleeders were already clamped!", args.User, args.User, PopupType.Small);
                     }
                     {

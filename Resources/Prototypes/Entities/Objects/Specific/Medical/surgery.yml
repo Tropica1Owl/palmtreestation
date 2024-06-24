@@ -150,6 +150,11 @@
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: hemostat # Even if the hemostat is in the same category as a retractor, it is used for different things.
+  - type: PTendWounds # Palmtree change - Required for the "tend wounds" procedure.
+    healThisMuch:
+      groups:
+        Brute: -15
+        Burn: -20
   - type: Sprite
     state: hemostat
   - type: Item
