@@ -20,7 +20,7 @@
   parent: BaseToolSurgery
   description: A surgical tool used to cauterize open wounds.
   components:
-  - type: PSurgeryToolComponent # Palmtree change - I don't need to explain this one, do I?
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: cautery
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
@@ -64,7 +64,7 @@
   parent: BaseToolSurgery
   description: A surgical tool used to make incisions into flesh.
   components:
-  - type: PSurgeryToolComponent # Palmtree change - I don't need to explain this one, do I?
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: scalpel
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -92,7 +92,7 @@
   parent: Scalpel
   description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
   components:
-  - type: PSurgeryToolComponent # Palmtree change - I don't need to explain this one, do I?
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: scalpel
     infectionDamage: 10.0 # Ghetto analogues should cause more infection than normal tools.
   - type: Sprite
@@ -134,7 +134,7 @@
   parent: BaseToolSurgery
   description: A surgical tool used to hold open incisions.
   components:
-  - type: PSurgeryToolComponent # Palmtree change - I don't need to explain this one, do I?
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: retractor
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -148,7 +148,7 @@
   parent: Retractor
   description: A surgical tool used to compress blood vessels to prevent bleeding.
   components:
-  - type: PSurgeryToolComponent # Palmtree change - I don't need to explain this one, do I?
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: hemostat # Even if the hemostat is in the same category as a retractor, it is used for different things.
   - type: Sprite
     state: hemostat
@@ -169,7 +169,7 @@
   parent: BaseToolSurgery
   description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
-  - type: PSurgeryToolComponent # Palmtree change - I don't need to explain this one, do I?
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: saw
   - type: Sharp
   - type: Utensil
