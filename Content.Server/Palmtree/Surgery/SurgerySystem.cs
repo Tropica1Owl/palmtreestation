@@ -3,6 +3,9 @@ using Content.Server.Popups;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
 
+// It's all very crude at the moment, made just for tests n' stuff, it has no real functionality at the moment.
+// I know the code is bad but I'm focusing atm to get myself acquainted with the engine, which has been going pretty well.
+
 namespace Content.Server.Palmtree.Surgery.SurgerySystem
 {
     public class PSurgerySystem : EntitySystem
