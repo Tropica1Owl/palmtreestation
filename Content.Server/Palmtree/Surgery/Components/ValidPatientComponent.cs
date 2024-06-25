@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Content.Server.Palmtree.Surgery
 {
     [RegisterComponent]
@@ -14,5 +16,7 @@ namespace Content.Server.Palmtree.Surgery
         [DataField("clamped")]
         [ViewVariables(VVAccess.ReadWrite)]
         public bool clamped = false;
+
+        public List<string> procedures = new List<string>();
     }
 }

@@ -153,8 +153,8 @@
   - type: PTendWounds # Palmtree change - Required for the "tend wounds" procedure.
     healThisMuch:
       groups:
-        Brute: -15
-        Burn: -20
+        Brute: -9
+        Burn: -12
   - type: Sprite
     state: hemostat
   - type: Item

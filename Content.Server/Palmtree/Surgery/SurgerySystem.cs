@@ -1,22 +1,76 @@
+using System.Collections.Generic;
 using Content.Server.Palmtree.Surgery;
 using Content.Server.Popups;
+using Content.Shared.Palmtree.Surgery;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Content.Shared.Damage;
+using Content.Shared.DoAfter;
+using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
+using Robust.Shared.Player;
+using Robust.Shared.Random;
 
-// It's all very crude at the moment, made just for tests n' stuff, it has no real functionality at the moment.
-// I know the code is bad but I'm focusing atm to get myself acquainted with the engine, which has been going pretty well.
+// It's all very crude at the moment, but it actually works now.
 
 namespace Content.Server.Palmtree.Surgery.SurgerySystem
 {
-    public class PSurgerySystem : EntitySystem
+    public class PSurgerySystem : SharedSurgerySystem
     {
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly DamageableSystem _damageableSystem = default!;
+        [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
+        [Dependency] private readonly SharedAudioSystem _audio = default!;
         public override void Initialize()
         {
             base.Initialize();
             SubscribeLocalEvent<PSurgeryToolComponent, AfterInteractEvent>(OnAfterInteract);
+            SubscribeLocalEvent<PSurgeryToolComponent, SurgeryDoAfterEvent>(OnProcedureFinished);
+        }
+        private void OnProcedureFinished(EntityUid uid, PSurgeryToolComponent tool, SurgeryDoAfterEvent args)
+        {
+            if (args.Cancelled || args.Target == null || !TryComp(args.Target, out PPatientComponent? patient)) return;
+            if (patient.procedures.Count == 0)
+            {
+                if (tool.kind == "scalpel")
+                {
+                    _popupSystem.PopupEntity("You successfully perform an incision!", args.User, PopupType.Small);
+                    patient.procedures.Add("scalpel");
+                }
+                else
+                {
+                    _popupSystem.PopupEntity("Perform an incision first!", args.User, PopupType.Small);
+                }
+            }
+            else
+            {
+                if (!patient.procedures.Contains(tool.kind))
+                {
+                    // Future code for specific procedures here, for now it's just a bogus handler
+                    if (tool.kind == "cautery")
+                    {
+                        _popupSystem.PopupEntity("You tend to the patient's wounds.", args.User, PopupType.Small);
+                        patient.procedures.Clear();
+                    }
+                    else
+                    {
+                        patient.procedures.Add(tool.kind);
+                        _popupSystem.PopupEntity("You use " + tool.kind + " on the patient.", args.User, PopupType.Small);
+                    }
+                }
+                else
+                { // Add the code for surgeries that perform repeated steps here
+                    if (tool.kind == "hemostat" && TryComp(uid, out PTendWoundsComponent? tendwounds))
+                    {
+                        _popupSystem.PopupEntity("You tend to the patient's wounds.", args.User, PopupType.Small);
+                        _damageableSystem.TryChangeDamage(args.Target, tendwounds.healThisMuch, true, origin: uid);
+                    }
+                    else
+                    {
+                        _popupSystem.PopupEntity("You already did this!", args.User, PopupType.Small);
+                    }
+                }
+            }
         }
         private void OnAfterInteract(EntityUid uid, PSurgeryToolComponent tool, AfterInteractEvent args)
         {
@@ -25,51 +79,14 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                 _popupSystem.PopupEntity("You cannot perform surgery on this!", args.User, PopupType.Small);
                 return;
             }
-            switch(tool.kind)
+            var doAfterEventArgs = new DoAfterArgs(EntityManager, args.User, 2.0f, new SurgeryDoAfterEvent(), uid, target: args.Target)
             {
-                case "scalpel":
-                    if (patient.incised)
-                    {
-                        _popupSystem.PopupEntity("Patient already has an incision!", args.User, args.User, PopupType.Small);
-                    }
-                    else
-                    {
-                        _popupSystem.PopupEntity("You perform an incision!", args.User, args.User, PopupType.Small);
-                        patient.incised = true;
-                    }
-                    break;
-                case "retractor":
-                    if (patient.retracted)
-                    {
-                        _popupSystem.PopupEntity("Patient's skin was already retracted!", args.User, args.User, PopupType.Small);
-                    }
-                    {
-                        _popupSystem.PopupEntity("You retract the patient's skin!", args.User, args.User, PopupType.Small);
-                        patient.retracted = true;
-                    }
-                    break;
-                case "hemostat":
-                    if (patient.clamped)
-                    {
-                        if (TryComp(uid, out PTendWoundsComponent? tendwounds)) // The moment we add more surgeries it's gonna bug the hell outta this, hopefully I'll have the code changed by then.
-                        {
-                            _popupSystem.PopupEntity("You tend some of the patient's wounds!", args.User, args.User, PopupType.Small);
-                            _damageableSystem.TryChangeDamage(args.Target, tendwounds.healThisMuch, true, origin: uid);
-                        }
-                        _popupSystem.PopupEntity("Patient's bleeders were already clamped!", args.User, args.User, PopupType.Small);
-                    }
-                    {
-                        _popupSystem.PopupEntity("You clamp the patient's bleeders", args.User, args.User, PopupType.Small);
-                        patient.clamped = true;
-                    }
-                    break;
-                case "cautery":
-                    _popupSystem.PopupEntity("You cauterize and finish the surgical procedure", args.User, args.User, PopupType.Small);
-                    patient.incised = false;
-                    patient.retracted = false;
-                    patient.clamped = false;
-                    break;
-            }
+                NeedHand = true,
+                BreakOnMove = true,
+                BreakOnWeightlessMove = true,
+            };
+            _doAfter.TryStartDoAfter(doAfterEventArgs);
+
         }
     }
 }
