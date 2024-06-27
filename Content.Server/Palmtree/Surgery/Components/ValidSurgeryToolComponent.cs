@@ -1,3 +1,5 @@
+using Content.Shared.Damage;
+
 namespace Content.Server.Palmtree.Surgery
 {
     [RegisterComponent]
@@ -10,5 +12,9 @@ namespace Content.Server.Palmtree.Surgery
         [DataField("infectionDamage")]
         [ViewVariables(VVAccess.ReadWrite)]
         public float infectionDamage = 1.0f;
+
+        [DataField("damageOnUse", required: true)] // Tools damage the patient on use except in special cases.
+        [ViewVariables(VVAccess.ReadWrite)]
+        public DamageSpecifier damageOnUse = default!;
     }
 }
