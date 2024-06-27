@@ -62,10 +62,13 @@
 #These are located in Maps
 
 - files: ["falcon.yml"]
-  authors: CRISOOOOO, BenDJaminUt
+  authors: BenDJaminUt, CRISOOOOO
   
 - files: ["knightship.yml"]
-  authors: CRISOOOOO, kerisar21
+  authors: kerisar21, CRISOOOOO
+  
+- filoes: ["gamma.yml"]
+  authors: Leshiy, CRISOOOOO
   
 #Palmtree Shuttles
 #These are located in Maps/Shuttles
