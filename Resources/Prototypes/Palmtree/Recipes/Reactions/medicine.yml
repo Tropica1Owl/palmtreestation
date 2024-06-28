@@ -10,3 +10,31 @@
 #      amount: 1
   products:
     Formaldehyde: 2
+
+- type: reaction
+  id: CreateBrutePatch
+  impact: Low
+  quantized: true
+  reactants:
+    Bicaridine:
+      amount: 5
+    Cryoxadone:
+      amount: 1
+      catalyst: true
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: BrutePatch
+
+- type: reaction
+  id: CreateBurnPatch
+  impact: Low
+  quantized: true
+  reactants:
+    Kelotane:
+      amount: 5
+    Cryoxadone:
+      amount: 1
+      catalyst: true
+  effects:
+    - !type:CreateEntityReactionEffect
+      entity: BurnPatch

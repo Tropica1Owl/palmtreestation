@@ -22,6 +22,8 @@
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: cautery
+    audioStart:
+      path: "/Audio/Palmtree/Items/Medical/cautery1.ogg"
     damageOnUse:
       types:
         Heat: 5 # Burns!
@@ -69,9 +71,14 @@
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: scalpel
+    audioStart:
+      path: "/Audio/Palmtree/Items/Medical/scalpel1.ogg"
+    audioEnd:
+      path: "/Audio/Palmtree/Items/Medical/scalpel2.ogg"
     damageOnUse:
       types:
-        Slash: 20 # Chop chop
+        Slash: 15 # Chop chop
+    bleedAmountOnUse: 15
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
   - type: Utensil
@@ -139,6 +146,10 @@
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: retractor
+    audioStart:
+      path: "/Audio/Palmtree/Items/Medical/retractor1.ogg"
+    audioEnd:
+      path: "/Audio/Palmtree/Items/Medical/retractor2.ogg"
     damageOnUse: # Ow it pinches
       types:
         Blunt: 5
@@ -156,6 +167,15 @@
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: hemostat # Even if the hemostat is in the same category as a retractor, it is used for different things.
+    audioStart:
+      path: "/Audio/Palmtree/Items/Medical/hemostat1.ogg"
+    audioEnd:
+      path: "/Audio/Palmtree/Items/Medical/hemostat1.ogg"
+    damageOnUse: # Ow it pinches
+      groups:
+        Brute: -15
+        Burn: -20
+    bleedAmountOnUse: -15
   - type: PTendWounds # Palmtree change - Required for the "tend wounds" procedure.
     healThisMuch:
       groups:
@@ -181,10 +201,15 @@
   description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    audioStart:
+      path: "/Audio/Palmtree/Items/Medical/scalpel1.ogg"
+    audioEnd:
+      path: "/Audio/Palmtree/Items/Medical/scalpel2.ogg"
     kind: saw
     damageOnUse:
       types:
         Blunt: 30 # Having your bones affected gotta hurt a lot
+    bleedAmountOnUse: 15
   - type: Sharp
   - type: Utensil
     types:
@@ -227,6 +252,11 @@
   parent: Saw
   description: For heavy duty cutting.
   components:
+  - type: PSurgeryTool
+    audioStart:
+      path: "/Audio/Palmtree/Items/Medical/saw1.ogg"
+    audioEnd:
+      path: "/Audio/Palmtree/Items/Medical/scalpel2.ogg"
   - type: Sprite
     state: electric
   - type: Item

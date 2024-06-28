@@ -1,0 +1,38 @@
+- type: entity
+  id: BasePatch
+  name: medicine patch
+  description: Touch-based medicine prepared to quickly heal a patient.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Specific/Medical/medicalpatch.rsi
+  - type: Item
+    size: 10
+
+- type: entity
+  id: BrutePatch
+  parent: BasePatch
+  name: brute patch
+  components:
+  - type: Sprite
+    state: brutepatch
+  - type: Healing
+    damageContainers:
+      - Biological
+    damage:
+      groups:
+        Brute: 30
+
+- type: entity
+  id: BurnPatch
+  parent: BasePatch
+  name: burn patch
+  components:
+  - type: Sprite
+    state: burnpatch
+  - type: Healing
+    damageContainers:
+      - Biological
+    damage:
+      groups:
+        Burn: 40

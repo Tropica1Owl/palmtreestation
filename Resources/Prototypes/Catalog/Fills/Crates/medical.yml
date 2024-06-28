@@ -68,6 +68,9 @@
       - id: Saw
       - id: Hemostat
       - id: ClothingMaskSterile
+      - id: SurgeryItemBloodFilter # Palmtree change
+      - id: PersonalAIBrainLink # Palmtree change
+      - id: PersonalAIBrainLink # Palmtree change
 
 - type: entity
   id: CrateMedicalScrubs

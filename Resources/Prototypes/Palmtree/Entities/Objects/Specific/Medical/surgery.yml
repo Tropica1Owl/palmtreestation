@@ -1,0 +1,18 @@
+- type: entity
+  name: blood filter
+  parent: BaseItem
+  id: SurgeryItemBloodFilter
+  description: A surgical tool to perform dialysis on a poisoned patient.
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Specific/Medical/bloodfilter.rsi
+    state: bloodfilter
+  - type: Item
+    size: 10
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    kind: bloodfilter
+    damageOnUse:
+      types:
+        Poison: -10
+    bleedAmountOnUse: 5
+    useDelay: 3
