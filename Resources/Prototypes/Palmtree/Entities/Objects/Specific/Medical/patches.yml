@@ -1,4 +1,5 @@
 - type: entity
+  parent: BaseItem
   id: BasePatch
   name: medicine patch
   description: Touch-based medicine prepared to quickly heal a patient.
@@ -21,7 +22,7 @@
       - Biological
     damage:
       groups:
-        Brute: 30
+        Brute: -30
 
 - type: entity
   id: BurnPatch
@@ -35,4 +36,4 @@
       - Biological
     damage:
       groups:
-        Burn: 40
+        Burn: -40
