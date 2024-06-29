@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------------------- #
+#                                  BASE TYPES                                  #
+# ---------------------------------------------------------------------------- #
+
+# Loosely based on Parkstation
+
+- type: entity
+  abstract: true
+  save: false
+  id: AIBase
+  components:
+    - type: StationAI
+    - type: Visibility
+    - type: CommunicationsConsole
+      title: Station AI
+      color: "#93e2ff"
+      delay: 2
+      global: true
+      showAuthor: false
+    # Hide the inhand sprites
+    - type: Hands
+      showInHands: false
+    # Allow examining things
+    - type: MindContainer
+      showExamineInfo: true
+    - type: Input
+      context: "human"
+    - type: MobMover
+    - type: InputMover
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Examiner
+    - type: Actions
+    - type: Tag
+      tags:
+        - CannotSuicide
+    - type: DoAfter
+    - type: Speech
+      speechVerb: Robotic
+    - type: TypingIndicator
+      proto: robot
+    # Innate access
+    - type: Access
+      groups:
+        - AllAccess
+    - type: IntrinsicRadioReceiver
+      channels:
+        - Binary
+        - Common
+        - Command
+        - CentCom
+        - Engineering
+        - Medical
+        - Science
+        - Security
+        - Service
+    - type: ActiveRadio
+      channels:
+        - Binary
+        - Common
+        - Command
+        - CentCom
+        - Engineering
+        - Medical
+        - Science
+        - Security
+        - Service
+    - type: Eye
+      drawFov: true
+
+# ---------------------------------------------------------------------------- #
+#                                    AI Core                                   #
+# ---------------------------------------------------------------------------- #
+
+- type: entity
+  name: AI Core
+  parent: [AIBase]
+  id: AICore
+  description: It's the station's AI.
