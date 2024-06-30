@@ -71,6 +71,9 @@
       - id: SurgeryItemBloodFilter # Palmtree change
       - id: PersonalAIBrainLink # Palmtree change
       - id: PersonalAIBrainLink # Palmtree change
+      - id: SurgeryItemAntiRot # Palmtree change
+      - id: NitrousOxideTankFilled # Palmtree change
+      - id: ClothingMaskBreathMedical # Palmtree change
 
 - type: entity
   id: CrateMedicalScrubs

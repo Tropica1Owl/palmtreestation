@@ -9,6 +9,9 @@
     sprite: Palmtree/Objects/Specific/Medical/medicalpatch.rsi
   - type: Item
     size: 10
+  - type: Tag
+    tags:
+      - MedicalPatches
 
 - type: entity
   id: BrutePatch

@@ -5,14 +5,46 @@
   description: A surgical tool to perform dialysis on a poisoned patient.
   components:
   - type: Sprite
-    sprite: Palmtree/Objects/Specific/Medical/bloodfilter.rsi
+    sprite: Palmtree/Objects/Specific/Medical/surgery.rsi
     state: bloodfilter
   - type: Item
     size: 10
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    audioStart:
+      path: "/Audio/Effects/beep1.ogg"
+    audioEnd:
+      path: "/Audio/Effects/double_beep.ogg"
     kind: bloodfilter
     damageOnUse:
       types:
-        Poison: -10
+        Poison: -15
     bleedAmountOnUse: 5
     useDelay: 3
+  - type: Tag
+    tags:
+      - SurgeryTool
+
+- type: entity
+  name: anti-rot spray
+  parent: BaseItem
+  id: SurgeryItemAntiRot
+  description: A surgical spray used to reduce rot with a NT patented compound. May be toxic.
+  components:
+  - type: Sprite
+    sprite: Palmtree/Objects/Specific/Medical/surgery.rsi
+    state: antirot
+  - type: Item
+    size: 10
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    audioStart:
+      path: "/Audio/Effects/spray3.ogg"
+    audioEnd:
+      path: "/Audio/Effects/spray2.ogg"
+    kind: antirot
+    damageOnUse:
+      types:
+        Poison: 2
+    useDelay: 1
+  - type: Tag
+    tags:
+      - SurgeryTool

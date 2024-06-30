@@ -264,6 +264,7 @@
         - Radio
         - DiscreteHealthAnalyzer
         - SurgeryTool
+        - MedicalPatches # Palmtree change
       components:
         - Hypospray
         - Injector

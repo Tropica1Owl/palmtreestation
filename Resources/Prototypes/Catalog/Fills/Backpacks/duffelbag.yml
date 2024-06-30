@@ -15,6 +15,7 @@
         - id: SurgeryItemBloodFilter # Palmtree change
         - id: PersonalAIBrainLink # Palmtree change
         - id: PersonalAIBrainLink # Palmtree change
+        - id: SurgeryItemAntiRot # Palmtree change
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle

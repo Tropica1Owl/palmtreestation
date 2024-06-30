@@ -24,9 +24,12 @@
     kind: cautery
     audioStart:
       path: "/Audio/Palmtree/Items/Medical/cautery1.ogg"
+    audioEnd:
+      path: "/Audio/Palmtree/Items/Medical/cautery2.ogg"
+    bleedAmountOnUse: -15
     damageOnUse:
       types:
-        Heat: 5 # Burns!
+        Heat: 1 # Burns!
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
     state: cautery

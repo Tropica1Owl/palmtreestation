@@ -4,6 +4,7 @@ using Content.Server.Palmtree.Surgery;
 using Content.Server.Body.Systems;
 using Content.Server.Popups;
 using Content.Server.Mind;
+using Content.Shared.Atmos.Rotting;
 using Content.Shared.Palmtree.Surgery;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
@@ -11,13 +12,18 @@ using Content.Shared.Damage;
 using Content.Shared.DoAfter;
 using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
-using Content.Shared.Players;
+//using Content.Shared.Players;
 using Content.Shared.Standing;
+using Content.Shared.Mobs;
+using Content.Shared.Mobs.Components;
+using Content.Shared.Mobs.Systems;
+using Content.Shared.Bed.Sleep;
 using Robust.Server.Player;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
+using Robust.Shared.Timing;
 
 // It's all very crude at the moment, but it actually works now.
 
@@ -32,7 +38,9 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
             {"TendWounds", new string[]{"scalpel"}},
             {"FilterBlood", new string[]{"scalpel", "retractor", "saw"}},
             {"SawBones", new string[]{"scalpel", "retractor"}}, // This comes before letting people saw bones
-            {"BrainTransfer", new string[]{"scalpel", "retractor", "saw"}}
+            {"BrainTransfer", new string[]{"scalpel", "retractor", "saw"}},
+            {"ReduceRotting", new string[]{"scalpel", "retractor"}},
+            {"InsertAugment", new string[]{"scapel", "retractor", "saw", "drill"}} // This procedure is used for augments and implants
         };
 
         [Dependency] private readonly PopupSystem _popupSystem = default!;
@@ -42,8 +50,11 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
         [Dependency] private readonly SharedMindSystem _sharedmind = default!;
         [Dependency] private readonly MindSystem _mind = default!;
         [Dependency] private readonly StandingStateSystem _standing = default!;
-        [Dependency] private readonly IPlayerManager _player = default!;
+        //[Dependency] private readonly IPlayerManager _player = default!;
+        [Dependency] private readonly SharedRottingSystem _rot = default!;
         [Dependency] private readonly BloodstreamSystem _blood = default!;
+        [Dependency] private readonly IGameTiming _timing = default!;
+        [Dependency] private readonly MobStateSystem _mobState = default!;
         public override void Initialize()
         {
             base.Initialize();
@@ -122,7 +133,6 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                             if (targetHasMind)
                             {
                                 _mind.TransferTo(targetMindId, uid, mind: targetMind);
-                                //_player.SetAttachedEntity(targetSession, uid, true);
                             }
                         }
                         else
@@ -143,8 +153,21 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                             failedProcedure = true;
                         }
                         break;
+                    case "antirot":
+                        if (patient.procedures.SequenceEqual(procedures["ReduceRotting"]))
+                        {
+                            _popupSystem.PopupEntity("You spray the anti-rot on the patient.", args.User, PopupType.Small);
+                            _rot.ReduceAccumulator((EntityUid) args.Target, TimeSpan.FromSeconds(30));
+                            repeatableProcedure = true;
+                        }
+                        else
+                        {
+                            _popupSystem.PopupEntity("You can't use the spray right now.", args.User, PopupType.Small);
+                            failedProcedure = true;
+                        }
+                        break;
                     default:
-                        _popupSystem.PopupEntity("Yo stupid ass forgot to give this tool a behavior check", args.User, PopupType.Small);
+                        _popupSystem.PopupEntity("If you see this, contact TropicalOwl and tell which tool you used when seeing this, this is an error message.", args.User, PopupType.Small);
                         break;
                 }
                 if (failedProcedure)
@@ -165,23 +188,29 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
         }
         private void OnAfterInteract(EntityUid uid, PSurgeryToolComponent tool, AfterInteractEvent args)
         {
+            bool patientHasState = TryComp(args.Target, out MobStateComponent? patientState);
             if (!args.CanReach || args.Target == null) // We already check if target is null, it's okay to perform direct conversion to non-nullable
             {
                 return;
             }
+            if (!TryComp(args.Target, out PPatientComponent? patient) && patientHasState)
+            {
+                _popupSystem.PopupEntity("You cannot perform surgery on this!", args.User, PopupType.Small);
+                return;
+            }
             if (!_standing.IsDown((EntityUid) args.Target))
             {
-                _popupSystem.PopupEntity("The patient must be laying down!", args.User, PopupType.Small);
+                _popupSystem.PopupEntity("The patient must be laying down and asleep!", args.User, PopupType.Small);
+                return;
+            }
+            if (!TryComp(args.Target, out SleepingComponent? sleep) && !_mobState.IsDead((EntityUid) args.Target, patientState))
+            {
+                _popupSystem.PopupEntity("The patient must be asleep!", args.User, PopupType.Small);
                 return;
             }
             if (args.User == args.Target)
             {
                 _popupSystem.PopupEntity("You cannot operate yourself!", args.User, PopupType.Small);
-                return;
-            }
-            if (!TryComp(args.Target, out PPatientComponent? patient))
-            {
-                _popupSystem.PopupEntity("You cannot perform surgery on this!", args.User, PopupType.Small);
                 return;
             }
             var doAfterEventArgs = new DoAfterArgs(EntityManager, args.User, tool.useDelay, new SurgeryDoAfterEvent(), uid, target: args.Target)
