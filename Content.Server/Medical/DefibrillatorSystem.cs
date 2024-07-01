@@ -222,7 +222,7 @@ public sealed class DefibrillatorSystem : EntitySystem
         }
         else
         {
-            if (_mobState.IsDead(target, mob))
+            if (_mobState.IsDead(target, mob) || _mobState.IsCritical(target, mob)) // Palmtree change - allows defibbing crit patients
                 _damageable.TryChangeDamage(target, component.ZapHeal, true, origin: uid);
 
             if (_mobThreshold.TryGetThresholdForState(target, MobState.Dead, out var threshold) &&
