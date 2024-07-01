@@ -1,33 +1,33 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/thunderdome.ogg
-    - /Audio/Lobby/absconditus.ogg
-    - /Audio/Lobby/space_asshole.ogg
-    - /Audio/Lobby/endless_space.ogg
-    - /Audio/Lobby/singuloose.ogg
-    - /Audio/Lobby/comet_haley.ogg
-    - /Audio/Lobby/title2.ogg
-    - /Audio/Lobby/title3.ogg
-    - /Audio/Lobby/mod.flip-flap.ogg
-    - /Audio/Lobby/Spac_Stac.ogg
-    - /Audio/Lobby/pwmur.ogg
-    - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
-    - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-    - /Audio/Lobby/atomicamnesiammx.ogg
-    - /Audio/Palmtree/Lobby/BrainFreeze.ogg
-    - /Audio/Palmtree/Lobby/carmenmirandasghost.ogg
-    - /Audio/Palmtree/Lobby/dawsonschristian.ogg
-    - /Audio/Palmtree/Lobby/lightupthenight.ogg
-    - /Audio/Palmtree/Lobby/MilitantForce.ogg
-    - /Audio/Palmtree/Lobby/milkyway.ogg
-    - /Audio/Palmtree/Lobby/MurderBrings.ogg
-    - /Audio/Palmtree/Lobby/P2_9999999.ogg
-    - /Audio/Palmtree/Lobby/P2_ReconstructingMoreScience.ogg
-    - /Audio/Palmtree/Lobby/rocketridersprayer.ogg
-    - /Audio/Palmtree/Lobby/starman.ogg
-    - /Audio/Palmtree/Lobby/Target.ogg
-    - /Audio/Palmtree/Lobby/twilight.ogg
+  # - /Audio/Lobby/thunderdome.ogg
+  # - /Audio/Lobby/absconditus.ogg
+  # - /Audio/Lobby/space_asshole.ogg
+  # - /Audio/Lobby/endless_space.ogg
+  # - /Audio/Lobby/singuloose.ogg
+  # - /Audio/Lobby/comet_haley.ogg
+  # - /Audio/Lobby/title2.ogg
+  # - /Audio/Lobby/title3.ogg
+  # - /Audio/Lobby/mod.flip-flap.ogg
+  # - /Audio/Lobby/Spac_Stac.ogg
+  # - /Audio/Lobby/pwmur.ogg
+  # - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
+  # - /Audio/Lobby/every_light_is_blinking_at_once.ogg
+  # - /Audio/Lobby/atomicamnesiammx.ogg
+  # - /Audio/Palmtree/Lobby/BrainFreeze.ogg
+  # - /Audio/Palmtree/Lobby/carmenmirandasghost.ogg
+  # - /Audio/Palmtree/Lobby/dawsonschristian.ogg
+  # - /Audio/Palmtree/Lobby/lightupthenight.ogg
+  # - /Audio/Palmtree/Lobby/MilitantForce.ogg
+  # - /Audio/Palmtree/Lobby/milkyway.ogg
+  # - /Audio/Palmtree/Lobby/MurderBrings.ogg
+  # - /Audio/Palmtree/Lobby/P2_9999999.ogg
+  # - /Audio/Palmtree/Lobby/P2_ReconstructingMoreScience.ogg
+  # - /Audio/Palmtree/Lobby/rocketridersprayer.ogg
+  # - /Audio/Palmtree/Lobby/starman.ogg
+  # - /Audio/Palmtree/Lobby/Target.ogg
+  # - /Audio/Palmtree/Lobby/twilight.ogg
     - /Audio/Palmtree/Lobby/TF2_DapperCadaver.ogg
     - /Audio/Palmtree/Lobby/TF2_ItHatesMeSoMuch.ogg
     - /Audio/Palmtree/Lobby/TF2_RedBread.ogg
@@ -35,5 +35,6 @@
     - /Audio/Palmtree/Lobby/TF2_SeduceMe.ogg
     - /Audio/Palmtree/Lobby/TF2_StinkLines.ogg
     - /Audio/Palmtree/Lobby/TF2_ThreeDaysToLive.ogg
-    - /Audio/Palmtree/Lobby/onegame.ogg
+    - /Audio/Palmtree/Lobby/TF2_Medic.ogg
+  # - /Audio/Palmtree/Lobby/onegame.ogg
 
