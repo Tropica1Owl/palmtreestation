@@ -52,6 +52,7 @@
   id: MobDamageable
   abstract: true
   components:
+  - type: PPatient
   - type: Damageable
     damageContainer: Biological
   - type: Destructible
