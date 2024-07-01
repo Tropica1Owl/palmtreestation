@@ -21,7 +21,7 @@ public sealed partial class SleepingComponent : Component
     /// </summary>
     [DataField("cooldown")]
     [ViewVariables(VVAccess.ReadWrite)]
-    public TimeSpan Cooldown = TimeSpan.FromSeconds(1f);
+    public TimeSpan Cooldown = TimeSpan.FromSeconds(60f); // Palmtree change - sleeping now requires the user to wait a minute, no one sleeps instantly.
 
     [DataField("cooldownEnd", customTypeSerializer:typeof(TimeOffsetSerializer))]
     [AutoPausedField]
