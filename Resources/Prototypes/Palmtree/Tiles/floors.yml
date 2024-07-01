@@ -1,0 +1,16 @@
+- type: tile
+  id: FloorModularWhite
+  name: White Modular Floor
+  sprite: /Textures/Palmtree/Tiles/modular.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemWhite #TODO: Replace with it's own item?
+  heatCapacity: 90000
