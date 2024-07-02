@@ -169,7 +169,7 @@
   description: A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
-    useDelay: 1
+    useDelay: 0.5
     kind: hemostat # Even if the hemostat is in the same category as a retractor, it is used for different things.
     audioStart:
       path: "/Audio/Palmtree/Items/Medical/hemostat1.ogg"
