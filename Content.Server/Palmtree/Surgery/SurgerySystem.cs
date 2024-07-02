@@ -142,7 +142,7 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                         }
                         break;
                     case "bloodfilter":
-                        if (patient.procedures.SequenceEqual(procedures["FilterBlood"]))
+                        if (patient.procedures.Contains("retractor"))
                         {
                             _popupSystem.PopupEntity("You filter the contaminants from the subject's blood.", args.User, PopupType.Small);
                             repeatableProcedure = true;
@@ -154,10 +154,10 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                         }
                         break;
                     case "antirot":
-                        if (patient.procedures.SequenceEqual(procedures["ReduceRotting"]))
+                        if (patient.procedures.Contains("retractor"))
                         {
                             _popupSystem.PopupEntity("You spray the anti-rot on the patient.", args.User, PopupType.Small);
-                            _rot.ReduceAccumulator((EntityUid) args.Target, TimeSpan.FromSeconds(30));
+                            _rot.ReduceAccumulator((EntityUid) args.Target, TimeSpan.FromSeconds(300));
                             repeatableProcedure = true;
                         }
                         else
@@ -203,7 +203,7 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                 _popupSystem.PopupEntity("The patient must be laying down and asleep!", args.User, PopupType.Small);
                 return;
             }
-            if (!TryComp(args.Target, out SleepingComponent? sleep) && !_mobState.IsDead((EntityUid) args.Target, patientState))
+            if (!TryComp(args.Target, out SleepingComponent? sleep) && !_mobState.IsIncapacitated((EntityUid) args.Target, patientState))
             {
                 _popupSystem.PopupEntity("The patient must be asleep!", args.User, PopupType.Small);
                 return;

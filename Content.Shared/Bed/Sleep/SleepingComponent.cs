@@ -14,7 +14,7 @@ public sealed partial class SleepingComponent : Component
     /// How much damage of any type it takes to wake this entity.
     /// </summary>
     [DataField("wakeThreshold")]
-    public FixedPoint2 WakeThreshold = FixedPoint2.New(2);
+    public FixedPoint2 WakeThreshold = FixedPoint2.New(4); // Palmtree change - crit patients should be operable
 
     /// <summary>
     ///     Cooldown time between users hand interaction.
