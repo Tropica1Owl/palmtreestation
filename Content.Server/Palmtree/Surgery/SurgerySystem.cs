@@ -203,7 +203,7 @@ namespace Content.Server.Palmtree.Surgery.SurgerySystem
                 _popupSystem.PopupEntity("The patient must be laying down and asleep!", args.User, PopupType.Small);
                 return;
             }
-            if (!TryComp(args.Target, out SleepingComponent? sleep) && !_mobState.IsDead((EntityUid) args.Target, patientState))
+            if (!TryComp(args.Target, out SleepingComponent? sleep) && !_mobState.IsIncapacitated((EntityUid) args.Target, patientState))
             {
                 _popupSystem.PopupEntity("The patient must be asleep!", args.User, PopupType.Small);
                 return;
