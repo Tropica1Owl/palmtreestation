@@ -44,7 +44,6 @@
     damageOnUse:
       types:
         Poison: 5
-    useDelay: 1
   - type: Tag
     tags:
       - SurgeryTool

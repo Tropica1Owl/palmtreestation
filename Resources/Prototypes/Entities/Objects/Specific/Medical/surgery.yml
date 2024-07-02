@@ -20,8 +20,8 @@
   parent: BaseToolSurgery
   description: A surgical tool used to cauterize open wounds.
   components:
-    useDelay: 1
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    useDelay: 1
     kind: cautery
     audioStart:
       path: "/Audio/Palmtree/Items/Medical/cautery1.ogg"
