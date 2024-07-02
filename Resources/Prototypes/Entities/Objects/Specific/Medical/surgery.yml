@@ -20,6 +20,7 @@
   parent: BaseToolSurgery
   description: A surgical tool used to cauterize open wounds.
   components:
+    useDelay: 1
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
     kind: cautery
     audioStart:
@@ -81,7 +82,6 @@
     damageOnUse:
       types:
         Slash: 15 # Chop chop
-    bleedAmountOnUse: 15
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
   - type: Utensil
@@ -169,6 +169,7 @@
   description: A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    useDelay: 1
     kind: hemostat # Even if the hemostat is in the same category as a retractor, it is used for different things.
     audioStart:
       path: "/Audio/Palmtree/Items/Medical/hemostat1.ogg"
@@ -212,7 +213,6 @@
     damageOnUse:
       types:
         Blunt: 30 # Having your bones affected gotta hurt a lot
-    bleedAmountOnUse: 15
   - type: Sharp
   - type: Utensil
     types:

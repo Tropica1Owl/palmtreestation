@@ -18,7 +18,6 @@
     damageOnUse:
       types:
         Poison: -15
-    bleedAmountOnUse: 5
     useDelay: 3
   - type: Tag
     tags:
@@ -36,6 +35,7 @@
   - type: Item
     size: 10
   - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    useDelay: 1
     audioStart:
       path: "/Audio/Effects/spray3.ogg"
     audioEnd:
@@ -43,7 +43,7 @@
     kind: antirot
     damageOnUse:
       types:
-        Poison: 2
+        Poison: 5
     useDelay: 1
   - type: Tag
     tags:
