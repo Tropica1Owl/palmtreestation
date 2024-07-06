@@ -1,93 +1,95 @@
-- type: lobbyBackground
-  id: SpaceCarp
-  background: /Textures/Palmtree/Lobby/carp.png
+# - type: lobbyBackground
+#   id: SpaceCarp
+#   background: /Textures/Palmtree/Lobby/carp.png
 
-- type: lobbyBackground
-  id: FurryChill
-  background: /Textures/Palmtree/Lobby/chillf.png
+# - type: lobbyBackground
+#   id: FurryChill
+#   background: /Textures/Palmtree/Lobby/chillf.png
 
-- type: lobbyBackground
-  id: FurryHOS
-  background: /Textures/Palmtree/Lobby/hosf.png
+# - type: lobbyBackground
+#   id: FurryHOS
+#   background: /Textures/Palmtree/Lobby/hosf.png
 
 - type: lobbyBackground
   id: FurryMedbay
   background: /Textures/Palmtree/Lobby/medf.png
 
-- type: lobbyBackground
-  id: PhilChaos
-  background: /Textures/Palmtree/Lobby/phil.png
+# - type: lobbyBackground
+#   id: PhilChaos
+#   background: /Textures/Palmtree/Lobby/phil.png
 
-- type: lobbyBackground
-  id: FurryPlanet
-  background: /Textures/Palmtree/Lobby/planetf.png
+# - type: lobbyBackground
+#   id: FurryPlanet
+#   background: /Textures/Palmtree/Lobby/planetf.png
 
-- type: lobbyBackground
-  id: FurryPlanetside
-  background: /Textures/Palmtree/Lobby/planetsidef.png
+# - type: lobbyBackground
+#   id: FurryPlanetside
+#   background: /Textures/Palmtree/Lobby/planetsidef.png
 
 - type: lobbyBackground
   id: FurryMedbaySad
   background: /Textures/Palmtree/Lobby/sadf.png
 
-- type: lobbyBackground
-  id: ShipSpace
-  background: /Textures/Palmtree/Lobby/ship.png
+# - type: lobbyBackground
+#   id: ShipSpace
+#   background: /Textures/Palmtree/Lobby/ship.png
 
-- type: lobbyBackground
-  id: FurryShooting
-  background: /Textures/Palmtree/Lobby/shootingf.png
+# - type: lobbyBackground
+#   id: FurryShooting
+#   background: /Textures/Palmtree/Lobby/shootingf.png
 
-- type: lobbyBackground
-  id: HeyHeyPeople
-  background: /Textures/Palmtree/Lobby/sseth.png
+# - type: lobbyBackground
+#   id: HeyHeyPeople
+#   background: /Textures/Palmtree/Lobby/sseth.png
 
-- type: lobbyBackground
-  id: SyndicateArtwork
-  background: /Textures/Palmtree/Lobby/synd.png
+# - type: lobbyBackground
+#   id: SyndicateArtwork
+#   background: /Textures/Palmtree/Lobby/synd.png
 
-- type: lobbyBackground
-  id: FurryThief
-  background: /Textures/Palmtree/Lobby/thief.png
+# - type: lobbyBackground
+#   id: FurryThief
+#   background: /Textures/Palmtree/Lobby/thief.png
 
-- type: lobbyBackground
-  id: FurryWaldo
-  background: /Textures/Palmtree/Lobby/waldo.png
+# - type: lobbyBackground
+#   id: FurryWaldo
+#   background: /Textures/Palmtree/Lobby/waldo.png
 
-- type: lobbyBackground
-  id: FurryBlackAndWhite
-  background: /Textures/Palmtree/Lobby/bubberstation.png
+# - type: lobbyBackground
+#   id: FurryBlackAndWhite
+#   background: /Textures/Palmtree/Lobby/bubberstation.png
 
 - type: lobbyBackground
   id: FurryRussianDiedOfDeath
   background: /Textures/Palmtree/Lobby/diedofdeath.png
 
-- type: lobbyBackground
-  id: FurrySyndicate
-  background: /Textures/Palmtree/Lobby/syndf.png
+# - type: lobbyBackground
+#   id: FurrySyndicate
+#   background: /Textures/Palmtree/Lobby/syndf.png
+
+# - type: lobbyBackground
+#   id: FurryJacob
+#   background: /Textures/Palmtree/Lobby/jacob.png
+
+# - type: lobbyBackground
+#   id: FurryCargo
+#   background: /Textures/Palmtree/Lobby/cargof.png
+
+# - type: lobbyBackground
+#   id: FurryMiner
+#   background: /Textures/Palmtree/Lobby/minerf.png
+
+# - type: lobbyBackground
+#   id: FurryishCrewp
+#   background: /Textures/Palmtree/Lobby/crew.png
+
+# - type: lobbyBackground
+#   id: ShitpostOps
+#   background: /Textures/Palmtree/Lobby/ops.png
+
+# - type: lobbyBackground
+#   id: LobbySyndicateWallpaper
+#   background: /Textures/Palmtree/Lobby/syndicate.png
 
 - type: lobbyBackground
-  id: FurryJacob
-  background: /Textures/Palmtree/Lobby/jacob.png
-
-- type: lobbyBackground
-  id: FurryCargo
-  background: /Textures/Palmtree/Lobby/cargof.png
-
-- type: lobbyBackground
-  id: FurryMiner
-  background: /Textures/Palmtree/Lobby/minerf.png
-
-- type: lobbyBackground
-  id: FurryishCrewp
-  background: /Textures/Palmtree/Lobby/crew.png
-
-- type: lobbyBackground
-  id: ShitpostOps
-  background: /Textures/Palmtree/Lobby/ops.png
-
-- type: lobbyBackground
-  id: LobbySyndicateWallpaper
-  background: /Textures/Palmtree/Lobby/syndicate.png
-
-
+  id: FurrySurgery
+  background: /Textures/Palmtree/Lobby/surgeryf.png
