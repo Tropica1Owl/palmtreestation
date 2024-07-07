@@ -46,10 +46,13 @@
 
 - type: entity
   name: E-11 BlasTech Standard Imperial Sidearm
-  parent: BaseWeaponBlaster
+  parent: [BaseWeaponBlaster, BaseGunWieldable]
   id: WeaponBlasterE11
   description: The BlasTech Industries E-11 blaster rifle is a powerful, light and compact weapon.
   components:
+    - type: Gun
+      fireRate: 2
+      soundGunshot: /Audio/Palmtree/Events/StarWars/Weapons/Fire/stormtrooper.ogg
     - type: ProjectileBatteryAmmoProvider
       proto: BlasterProjectileRed
       fireCost: 100
@@ -57,3 +60,17 @@
 # ---------------------------------------------------------------------------- #
 #                                 Rebel Weapons                                #
 # ---------------------------------------------------------------------------- #
+
+- type: entity
+  name: DL-18 blaster pistol
+  parent: BaseWeaponBlaster
+  id: WeaponBlasterDL18
+  description: A type of blaster pistol, manufactured by BlasTech Industries.
+  components:
+    - type: Gun
+      fireRate: 2
+      soundGunshot:
+        collection: StarWarsBlasterFire
+    - type: ProjectileBatteryAmmoProvider
+      proto: BlasterProjectileGreen
+      fireCost: 100

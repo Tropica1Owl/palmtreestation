@@ -18,10 +18,10 @@
       startingCharge: 10000
     - type: BatterySelfRecharger
       autoRecharge: true
-      autoRechargeRate: 40
+      autoRechargeRate: 100
     - type: ProjectileBatteryAmmoProvider
       proto: BlasterProjectileRed
-      fireCost: 200
+      fireCost: 10
     # ------------------------------------- - ------------------------------------ #
     - type: Fixtures
       fixtures:

@@ -22,9 +22,9 @@
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
     damage:
       types:
-        Burn: 10
+        Burn: 15
   - type: TimedDespawn
-    lifetime: 40
+    lifetime: 400
 
 # ---------------------------------------------------------------------------- #
 #                                Impact Effects                                #
@@ -92,7 +92,7 @@
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
     damage:
       types:
-        Burn: 10
+        Burn: 15
 
 - type: entity
   name: blaster shot green
@@ -114,7 +114,7 @@
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
     damage:
       types:
-        Burn: 10
+        Burn: 15
 
 
 # ---------------------------------------------------------------------------- #

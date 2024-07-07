@@ -1,0 +1,118 @@
+# ---------------------------------------------------------------------------- #
+#                                     Base                                     #
+# ---------------------------------------------------------------------------- #
+
+# Yes, the cannons are literally emitters.
+
+- type: entity
+  id: BaseShipWeapon
+  name: base ship weapon
+  parent: [SmallConstructibleMachine]
+  description: A blaster weapon ready to fire non-stop when triggered.
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.25,0.25,0.25"
+        density: 400
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    sprite: Structures/Power/Generation/Singularity/emitter.rsi
+    layers:
+    - state: emitter2
+    - state: beam
+      shader: unshaded
+      visible: false
+      map: ["enum.EmitterVisualLayers.Lights"]
+    - state: locked
+      shader: unshaded
+      visible: false
+      map: ["enum.LockVisualLayers.Lock"]
+  - type: Emitter
+  - type: PowerConsumer
+    voltage: Medium
+  - type: NodeContainer
+    examinable: true
+    nodes:
+      input:
+        !type:CableDeviceNode
+        nodeGroupID: MVPower
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: StrongMetallic
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 800
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+      - trigger:
+          !type:DamageTrigger
+          damage: 400
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:SpawnEntitiesBehavior
+          spawn:
+            SheetSteel1:
+              min: 5
+              max: 5
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+  - type: Anchorable
+  - type: Pullable
+  - type: Rotatable
+  - type: Appearance
+  - type: Lock
+    locked: false
+  - type: LockVisuals
+  - type: LockedAnchorable
+  - type: LockedWiresPanel
+  - type: AccessReader
+    access: [[ "Engineering" ]]
+  - type: Machine
+    board: EmitterCircuitboard
+  - type: GuideHelp
+    guides: [ Singularity, Power ]
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+      - On
+      - Off
+      - Toggle
+  - type: Gun
+    showExamineText: false
+    fireRate: 10
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Palmtree/Events/StarWars/Weapons/Fire/v19cannon.ogg
+
+
+# ---------------------------------------------------------------------------- #
+#                                   Imperial                                   #
+# ---------------------------------------------------------------------------- #
+
+
+# ---------------------------------------------------------------------------- #
+#                                     Rebel                                    #
+# ---------------------------------------------------------------------------- #
