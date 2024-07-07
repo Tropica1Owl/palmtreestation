@@ -1,0 +1,118 @@
+# Low-Tier
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderWhite
+  suffix: White
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: white_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderWhite
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderGreen
+  suffix: Green
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: green_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderGreen
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderPurple
+  suffix: Purple
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: purple_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderPurple
+
+
+# Mid-Tier
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderRed
+  suffix: Red
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: red_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderRed
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderYellow
+  suffix: Yellow
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: yellow_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderYellow
+
+# Low-Command
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderPrincess
+  suffix: Princess
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: princess_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderPrincess
+
+- type: entity
+  name: Terror Spider Spawner
+  id: SpawnMobTerrorSpiderQueen
+  suffix: Queen
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Palmtree/Mobs/Aliens/TerrorSpiders/terror_spiders.rsi
+        state: queen_alive
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobTerrorSpiderQueen
