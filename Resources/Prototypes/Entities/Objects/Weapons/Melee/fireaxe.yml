@@ -39,8 +39,11 @@
   - type: Tool
     qualities:
       - Prying
+  - type: ToolForcePowered # Palmtree station change - parity with paradise
   - type: ToolTileCompatible
   - type: Prying
+    pryPowered: true # Palmtree station change - parity with paradise
+    useSound: /Audio/Items/jaws_pry.ogg # Palmtree station change - parity with paradise
   - type: UseDelay
     delay: 1
   - type: StealTarget

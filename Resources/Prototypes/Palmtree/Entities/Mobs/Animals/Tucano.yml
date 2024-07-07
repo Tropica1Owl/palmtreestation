@@ -2,7 +2,7 @@
   name: Bananilson
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobTucanoBananilson
-  description: Um Tucano amigo da estação. Diferente dos papagaios, ele não é companheiro dos piratas.
+  description: Um mascote tropical para uma estação igualmente tropical!
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 5
