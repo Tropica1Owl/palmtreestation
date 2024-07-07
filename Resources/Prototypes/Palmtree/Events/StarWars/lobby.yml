@@ -1,0 +1,12 @@
+- type: lobbyBackground
+  id: StarWarsVaderA
+  background: /Textures/Palmtree/Events/StarWars/Lobby/vader1.png
+
+- type: lobbyBackground
+  id: StarWarsVaderB
+  background: /Textures/Palmtree/Events/StarWars/Lobby/vader2.png
+
+- type: lobbyBackground
+  id: StarWarsEmpireArmy
+  background: /Textures/Palmtree/Events/StarWars/Lobby/army.png
+
