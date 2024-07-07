@@ -43,8 +43,8 @@
   id: StarWarsBlasterFire
   files:
     - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster01.ogg
-    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster02.ogg
-    - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster03.ogg
+    # - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster02.ogg
+    # - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster03.ogg
     - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster04.ogg
     - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster05.ogg
     - /Audio/Palmtree/Events/StarWars/Weapons/Fire/blaster06.ogg
