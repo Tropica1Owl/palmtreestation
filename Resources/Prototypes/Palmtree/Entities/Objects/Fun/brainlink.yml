@@ -1,0 +1,64 @@
+# Placeholder PAIs, aka semi-automatic ghost roles
+
+- type: entity
+  parent: BaseItem
+  id: PersonalAIBrainLink
+  name: portable ghost shell card
+  description: Used to extract the soul of living things for conversion into borgs. This process can only be performed once and is irreversible. Choose wisely.
+  components:
+  - type: PSurgeryTool # Palmtree change - I don't need to explain this one, do I?
+    kind: brainlink
+    useDelay: 10 # You gotta be sure.
+    damageOnUse:
+      types:
+        Shock: 1000 # This is not good for your head
+  - type: BorgBrain
+  - type: MindContainer
+  - type: Instrument
+    allowPercussion: false
+    handheld: false
+    bank: 1
+    program: 2
+  - type: UserInterface
+    interfaces:
+      enum.InstrumentUiKey.Key:
+        type: InstrumentBoundUserInterface
+        requireInputValidation: false
+      enum.StationMapUiKey.Key:
+        type: UntrackedStationMapBoundUserInterface
+        requireInputValidation: false
+  - type: Sprite
+    sprite: Objects/Fun/pai.rsi
+    layers:
+    - state: pai-base
+    - state: pai-off-overlay
+      shader: unshaded
+      map: ["screen"]
+  - type: Input
+    context: "human"
+  - type: PAI
+  - type: BlockMovement
+  - type: Examiner
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Binary
+  - type: ActiveRadio
+    channels:
+    - Binary
+    - Common
+  - type: DoAfter
+  - type: Actions
+  - type: TypingIndicator
+    proto: robot
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Pai
+    # This has to be installed because otherwise they're not "alive",
+    #  so they can ghost and come back.
+    # Note that the personal AI never "dies".
+  - type: MobState
+    allowedStates:
+      - Alive
+  - type: Appearance
+  - type: StationMap

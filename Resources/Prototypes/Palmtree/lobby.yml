@@ -90,4 +90,6 @@
   id: LobbySyndicateWallpaper
   background: /Textures/Palmtree/Lobby/syndicate.png
 
-
+- type: lobbyBackground
+  id: FurrySurgery
+  background: /Textures/Palmtree/Lobby/surgeryf.png

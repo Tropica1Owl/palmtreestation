@@ -150,3 +150,9 @@ chat-speech-verb-name-electricity = Electricity
 chat-speech-verb-electricity-1 = crackles
 chat-speech-verb-electricity-2 = buzzes
 chat-speech-verb-electricity-3 = screeches
+
+# PALMTREE STATION STUFF
+
+chat-manager-popuprelay-info-wrap-message = [font size=14]{$message}[/font]
+chat-manager-popuprelay-combat-wrap-message = [font size=16][bold]{$message}[/bold][/font]
+chat-manager-popuprelay-userdanger-wrap-message = [font size=24][bold]{$message}[/bold][/font]

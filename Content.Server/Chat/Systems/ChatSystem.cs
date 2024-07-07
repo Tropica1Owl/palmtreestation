@@ -374,6 +374,40 @@ public sealed partial class ChatSystem : SharedChatSystem
 
     #endregion
 
+    #region Palmtree Changes
+
+    public void DispatchPopupText(EntityUid player, ICommonSession session, bool visible, string message, ChatPopupRelayType relayType = ChatPopupRelayType.Info, float range = 2f, Color? color = null)
+    {
+        var wrappedMessage = Loc.GetString("chat-manager-popuprelay-info-wrap-message", ("message", FormattedMessage.EscapeText(message)));
+        if (relayType == ChatPopupRelayType.Combat)
+            wrappedMessage = Loc.GetString("chat-manager-popuprelay-combat-wrap-message", ("message", FormattedMessage.EscapeText(message)));
+        if (relayType == ChatPopupRelayType.UserDanger)
+            wrappedMessage = Loc.GetString("chat-manager-popuprelay-userdanger-wrap-message", ("message", FormattedMessage.EscapeText(message)));
+
+
+        if (visible)
+        {
+            var filter = Filter.Empty().AddPlayersByPvs(player, range);
+            _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Visual, message, wrappedMessage, player, false, true, color);
+        } else
+        {
+            _chatManager.ChatMessageToOne(ChatChannel.Visual, message, wrappedMessage, player, false, client: session.Channel);
+        }
+    }
+
+    // This should be similar to SS13 span types for chat.
+    public enum ChatPopupRelayType : byte
+    {
+        Info,
+        Combat,
+        UserDanger
+    }
+
+    #endregion
+
+
+
+
     #region Private API
 
     private void SendEntitySpeak(
